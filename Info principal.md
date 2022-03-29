@@ -10,5 +10,5 @@ Horario de atención al público: Lunes a Viernes de 19:00 a 21:00 hs.
 
 Mail: [dfts_ifts18_de2@bue.edu.ar](mailto:Dfts_ifts18_de2@bue.edu.ar)
 
-![[horarios-cuatri-1.png]]
+![](horarios-cuatri-1.png)
 
