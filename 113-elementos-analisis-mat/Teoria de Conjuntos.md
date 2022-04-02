@@ -71,5 +71,3 @@ B = { x | x ∈ N ^ x es un número par }
 - El conjunto de los números reales (R). Formado por el conjunto de los números racionales e irracionales.
 
 	R = { ..., -π, ..., -√5, ..., -1/2, ..., 0, 1/2, ..., √5, ..., π, ... }
-
-	
