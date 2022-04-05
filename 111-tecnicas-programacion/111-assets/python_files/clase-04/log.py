@@ -8,7 +8,7 @@ passwInput = input("Ingrese pass: ")
 
 if userInput == user:
     if passwInput == passw:
-        print("Ingreso ok! Hola {}".format(user))
+        print("Ingreso ok! Hola ", user)
     else:
         print("error en passwd")
 else:
