@@ -18,8 +18,8 @@ lado3 = float(input("ingrese lado 3: "))
 
 ## verifico que los input sean mayores a 0
 
-if lado1 < 0 or lado2 < 0 or lado3 < 0:
-    print("Error: El lado debe ser un número mayor a 0")
+if lado1 <= 0 or lado2 <= 0 or lado3 <= 0:
+    print("(!) error: todos los lados deben ser números mayores a 0")
 else:
 
     # Determino el tipo de triángulo
