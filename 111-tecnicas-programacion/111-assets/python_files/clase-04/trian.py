@@ -1,6 +1,6 @@
 """
 Realizar un programa que, ingresando los 
-3 lados de un triángulo su tipo.
+3 lados de un triángulo determine su tipo.
 
 escaleno: todos los lados son diferentes
 isosceles: 2 iguales y uno diferente
