@@ -29,6 +29,8 @@ else:
             trian = "equilatero"
         else:
             trian = "isosceles"
+    elif lado1 == lado3:
+        trian = "isosceles"
     else:
         trian = "escaleno"
 
