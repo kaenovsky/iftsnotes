@@ -25,7 +25,7 @@ else:
     # Determino el tipo de triángulo
 
     if lado1 == lado2:
-        if lado1 == lado3:
+        if lado2 == lado3:
             trian = "equilatero"
         else:
             trian = "isosceles"
