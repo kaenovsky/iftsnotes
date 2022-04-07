@@ -33,9 +33,9 @@ else:
 
     # muestro resultado
 
-    print("########################")
+    print("############################")
     print("el triángulo es: ", trian)
-    print("########################")
+    print("############################")
 
 print("")
 print("~~~~~ fin del programa ~~~~~")
