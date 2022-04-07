@@ -27,7 +27,7 @@ else:
     if lado1 == lado2 and lado2 == lado3:
         trian = "equilatero"
     elif lado1 == lado3 or lado2 == lado3 or lado1 == lado2:
-        trian = "isosceles"
+        trian = "isósceles"
     else:
         trian = "escaleno"
 
@@ -36,6 +36,6 @@ else:
     print("########################")
     print("el triángulo es: ", trian)
     print("########################")
-    print("")
-    print("~~~~~ fin del programa ~~~~~")
-    
+
+print("")
+print("~~~~~ fin del programa ~~~~~")
