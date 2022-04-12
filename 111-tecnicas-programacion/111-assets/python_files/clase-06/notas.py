@@ -22,14 +22,14 @@ while(cond):
     totalNotas = totalNotas + nota
     i = i + 1  # contador de ingresos  
 
-    rta = input("Desea agregar otra nota (S/n): ")
+    rta = input("Desea agregar otra nota? (S/n): ")
 
     ## while para validar respuesta s/n
 
     while(rta != "n" and rta != "N" and rta != "s" and rta != "S"):
         print("(!) error: ingrese como respuesta Sí (s/S) o No (N/n)")
         print()
-        rta = input("Desea agregar otra nota (S/n): ")
+        rta = input("Desea agregar otra nota? (S/n): ")
 
     if(rta == "n" or rta == "N"):
         print("#################################")        
