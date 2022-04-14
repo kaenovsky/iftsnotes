@@ -1,4 +1,4 @@
-## clase 07 - ejercicio numerso pares
+## clase 07 - ejercicio numeros pares
 
 """
 Solicitar al usuario que ingrese num positivos y,
@@ -7,9 +7,11 @@ que lo componen. La condición de corte es que
 se ingrese el número -1. Al finalizar, mostrar
 cuántos de los números ingresados son pares
 
-ej input: 5223 
-la suma debería ser = 5 + 2 + 2 + 3
-y el número de pares 2
+ej con el siguiente input:
+42 el resultado es 4 + 2 = 6
+14 el resultado es 1 + 4 = 5
+25 el resultado es 2 + 5 = 7
+y el número de pares 2 (42 y 14)
 """
 
 print("~~~~~ inicio del programa ~~~~~")
