@@ -18,13 +18,13 @@ print()
 
 opt = 0
 
-print("Eliga con su teclado una de las siguientes opciones: ")
-print()
-print("opción [1]: comenzar programa")
-print("opción [2]: imprimir listado")
-print("opción [3]: finalizar programa")
-
 while(opt != 3):
+
+    print("Eliga con su teclado una de las siguientes opciones: ")
+    print()
+    print("opción [1]: comenzar programa")
+    print("opción [2]: imprimir listado")
+    print("opción [3]: finalizar programa")
 
     opt = int(input("Ingresar opción (1, 2 o 3): "))
 
@@ -34,11 +34,17 @@ while(opt != 3):
         opt = int(input("Ingresar opción (1,2 o 3): "))
 
     if(opt == 1):
-        print("eligió opción 1. Excelente :)")
+        print("~~~~~~~~~~~~~~~~~~~~~~~~")
+        print("eligió opción 1. nice :)")
+        print("~~~~~~~~~~~~~~~~~~~~~~~~")
     elif(opt == 2):
-        print("eligió opción 2! Wow :| ")
-    
-    ## si no es ni 1 ni 2, es 3 y el programa finaliza
+        print("~~~~~~~~~~~~~~~~~~~~~~~~")
+        print("eligió opción 2. OMG! :|")
+        print("~~~~~~~~~~~~~~~~~~~~~~~~")
+    else:
+        print("~~~~~~~~~~~~~~~~~~~~~~~~")
+        print("eligió opción 3. chau x)")
+        print("~~~~~~~~~~~~~~~~~~~~~~~~")
 
 print()
 print("~~~~~ fin del programa ~~~~~")
