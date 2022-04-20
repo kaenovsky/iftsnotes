@@ -9,5 +9,5 @@ https://youtu.be/-CvjcwWYMCc
 
 Con una tabla de función dada, encontramos su función booleana
 
-![](114-assets/ppt-17-logic.png)
+![](funcion_booleana.png)
 
