@@ -7,7 +7,7 @@ cuál fue el mayor número ingresado.
 print("~~~~~ inicio del programa ~~~~~")
 print()
 
-num = "null"
+num = None
 mayorActual = 0
 
 while(num != 0):
