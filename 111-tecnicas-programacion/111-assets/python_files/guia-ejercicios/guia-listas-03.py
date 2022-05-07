@@ -8,7 +8,7 @@ entre 7 y 8 dígitos.
 dniInput = int(input("Por favor ingrese su número de DNI: "))
 dni = str(dniInput)
 lenDni = len(dni)
-print("Cantidad de digitos del DNI: {}".format(lenDni))
+print("La cantidad de dígitos del DNI es {}".format(lenDni))
 
 def validate(dni):
     if(lenDni != 7 and lenDni != 8 ):
