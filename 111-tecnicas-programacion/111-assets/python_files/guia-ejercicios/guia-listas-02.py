@@ -8,7 +8,7 @@ d = {}
 def getWords(strCustom):
     listedWords = strCustom.split()
     for word in listedWords:
-        d.update({'{}'.format(word) : '{}'.format(len(word)) })
+        d.update({word : len(word) })
     print(d)
 
 getWords(strCustom)
