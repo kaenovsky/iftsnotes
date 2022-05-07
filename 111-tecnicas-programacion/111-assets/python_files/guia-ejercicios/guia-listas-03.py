@@ -11,10 +11,13 @@ print("Cantidad de digitos del DNI: {}".format(len(dni)))
 
 def validate(dni):
     if(len(dni) != 7 and len(dni) != 8 ):
-        print("(!) error: el DNI debe tener 7 u 8 dígitos")
         return False
     else:
-        print("Este DNI es válido :) {}".format(dni))
         return True
 
-validate(dni)    
+isValid = validate(dni)
+
+if(isValid):
+    print("Este DNI es válido :) {}".format(dni))
+else:
+    print("(!) error: el DNI debe tener 7 u 8 dígitos")
