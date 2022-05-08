@@ -2,4 +2,7 @@
 
 comprobante*
 inscripcion*
+
+# no mostrar parciales en dir /parciales/
+# después del deadline mv fuera del dir
 parciales*
