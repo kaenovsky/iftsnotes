@@ -1,3 +1,7 @@
+# archivos ocultos
+.*
+!/.gitignore
+
 # no pushear comprobantes de inscripción a materias
 
 comprobante*
