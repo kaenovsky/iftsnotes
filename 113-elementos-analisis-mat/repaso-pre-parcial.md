@@ -2,20 +2,31 @@
 Todos los temas del parcial, recopilados por un compañero (Demi)
 
 Conjuntos: https://www.youtube.com/watch?v=YZRRUFG2UOY
+
 Función Lineal: https://www.youtube.com/watch?v=09kcKGsSEbw
+
 Función Cuadrática: https://www.youtube.com/watch?v=9Qu4fodFQG4
+
 Función Polinomica: https://www.youtube.com/watch?v=co7E4VAHQR8
+
 Función Exponencial: https://www.youtube.com/watch?v=gea1Wz-yMC0
+
 Función Racional: https://www.youtube.com/watch?v=4PWf27vLNQs
+
 Funciones Trigonométricas: https://www.youtube.com/watch?v=4tpi87_Y_y0
+
 Función Inversa: https://www.youtube.com/watch?v=lfM_PBfIkvk
 
 Vectores:
 
 https://www.youtube.com/watch?v=xURTgxvG-3c (Suma Vectores en R2 y Gráfico)
+
 https://www.youtube.com/watch?v=sqkni90xet0 (Suma Vectores en R3 Y Gráfico)
+
 https://www.youtube.com/watch?v=vL8GIHsantM (Resta Vectores en R2 Y Gráfico)
+
 https://www.youtube.com/watch?v=5Yj9EVLJXBM (Producto Escalar)
+
 https://www.youtube.com/watch?v=fmAhi1N-uL8&t=361s (Producto Cruz de dos vectores)
 
 ---
