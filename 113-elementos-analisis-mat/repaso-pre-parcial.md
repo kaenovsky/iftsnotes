@@ -1,33 +1,33 @@
 ### Repaso completo
 Todos los temas del parcial, recopilados por un compañero (Demi)
 
-Conjuntos: https://www.youtube.com/watch?v=YZRRUFG2UOY
+[Conjuntos](https://www.youtube.com/watch?v=YZRRUFG2UOY) 
 
-Función Lineal: https://www.youtube.com/watch?v=09kcKGsSEbw
+[Función Lineal](https://www.youtube.com/watch?v=09kcKGsSEbw)
 
-Función Cuadrática: https://www.youtube.com/watch?v=9Qu4fodFQG4
+[Función Cuadrática](https://www.youtube.com/watch?v=9Qu4fodFQG4)
 
-Función Polinomica: https://www.youtube.com/watch?v=co7E4VAHQR8
+[Función Polinomica](https://www.youtube.com/watch?v=co7E4VAHQR8)
 
-Función Exponencial: https://www.youtube.com/watch?v=gea1Wz-yMC0
+[Función Exponencial](https://www.youtube.com/watch?v=gea1Wz-yMC0)
 
-Función Racional: https://www.youtube.com/watch?v=4PWf27vLNQs
+[Función Racional](https://www.youtube.com/watch?v=4PWf27vLNQs)
 
-Funciones Trigonométricas: https://www.youtube.com/watch?v=4tpi87_Y_y0
+[Funciones Trigonométricas](https://www.youtube.com/watch?v=4tpi87_Y_y0)
 
-Función Inversa: https://www.youtube.com/watch?v=lfM_PBfIkvk
+[Función Inversa](https://www.youtube.com/watch?v=lfM_PBfIkvk)
 
 Vectores:
 
-https://www.youtube.com/watch?v=xURTgxvG-3c (Suma Vectores en R2 y Gráfico)
+[Suma Vectores en R2 y Gráfico](https://www.youtube.com/watch?v=xURTgxvG-3c)
 
-https://www.youtube.com/watch?v=sqkni90xet0 (Suma Vectores en R3 Y Gráfico)
+[Suma Vectores en R3 Y Gráfico](https://www.youtube.com/watch?v=sqkni90xet0)
 
-https://www.youtube.com/watch?v=vL8GIHsantM (Resta Vectores en R2 Y Gráfico)
+[Resta Vectores en R2 Y Gráfico](https://www.youtube.com/watch?v=vL8GIHsantM)
 
-https://www.youtube.com/watch?v=5Yj9EVLJXBM (Producto Escalar)
+[Producto Escalar](https://www.youtube.com/watch?v=5Yj9EVLJXBM)
 
-https://www.youtube.com/watch?v=fmAhi1N-uL8&t=361s (Producto Cruz de dos vectores)
+[Producto Cruz de dos vectores](https://www.youtube.com/watch?v=fmAhi1N-uL8&t=361s)
 
 ---
 #### Teoría de conjuntos:
@@ -158,3 +158,81 @@ x = 2/3 (x es igual a 2 tercios)
 
 En este caso "encontré el conjunto de ceros":
 C 0 = { 2/3 }
+
+##### Paralelismo
+Dos f(x) lineales son  paralelas (no hay intersección) cuando tienen la misma pendiente.
+
+##### Perpendicularidad
+Dos f(x) lineales son perpendiculares (se cortan formando un ángulo de 90°) cuando sus pendientes son **opuestas** e **inversas**.
+
+ejemplo:
+
+` f(x) = - 2x + 1 `
+` g(x) = 1/2x - 5 `
+
+![](ppt-141-mat.png)
+
+Ejercicio de práctica: hallar una función lineal a partir de 2 puntos
+
+![](113-assets/ppt-142-mat.png)
+
+Pasos para encontrar la función:
+
+1) Encontrar la pendiente
+2) Encontrar la ordenada al origen
+
+La pendiente es: y2 - y1 sobre x2 - x1
+
+Para b (ordenada al origen): Reemplazar los puntos de la función X, Y
+
+(...)
+
+---
+
+
+#### Vectores
+[Suma Vectores en R2 y Gráfico](https://www.youtube.com/watch?v=xURTgxvG-3c)
+
+Graficando vectores en GG
+
+Consigna: hallar ` r→ + s→ ` 
+
+r→ = (3,2)
+s→ = (-2,5)
+
+![](113-assets/ppt-138-mat.png)
+
+[Resta Vectores en R2 Y Gráfico](https://www.youtube.com/watch?v=vL8GIHsantM)
+
+Consigna: hallar ` r→ - s→ ` 
+
+r→ = (3,2)
+s→ = (-2,5)
+
+`r→ - S→ = (3,2) - (-2,5) `
+
+// Lo que hacemos es restar por cada componente:
+
+` 3 - (-2) = 5 `
+` 2 - 5 = -3 `
+
+Entonces:
+
+` r→ - S→ = (3,2) - (-2,5) = (5,-3) `
+
+El opuesto sería:
+
+` -S→ = (2,-5) `
+
+Restar vectores es igual a sumar el opuesto del segundo
+
+Vector diferencia en rojo:
+
+![](113-assets/ppt-139-mat.png)
+
+vector rojo:
+` r→ - s→ `
+
+Ejemplo en video haciendo traslado de vectores, da el mismo resultado:
+
+![](113-assets/ppt-140-mat.png)
