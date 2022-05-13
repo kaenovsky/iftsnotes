@@ -1,33 +1,22 @@
 ### Repaso completo
 Todos los temas del parcial, recopilados por un compañero (Demi)
 
-[Conjuntos](https://www.youtube.com/watch?v=YZRRUFG2UOY) 
-
-[Función Lineal](https://www.youtube.com/watch?v=09kcKGsSEbw)
-
-[Función Cuadrática](https://www.youtube.com/watch?v=9Qu4fodFQG4)
-
-[Función Polinomica](https://www.youtube.com/watch?v=co7E4VAHQR8)
-
-[Función Exponencial](https://www.youtube.com/watch?v=gea1Wz-yMC0)
-
-[Función Racional](https://www.youtube.com/watch?v=4PWf27vLNQs)
-
-[Funciones Trigonométricas](https://www.youtube.com/watch?v=4tpi87_Y_y0)
-
-[Función Inversa](https://www.youtube.com/watch?v=lfM_PBfIkvk)
+- [Conjuntos](https://www.youtube.com/watch?v=YZRRUFG2UOY) 
+- [Función Lineal](https://www.youtube.com/watch?v=09kcKGsSEbw)
+- [Función Cuadrática](https://www.youtube.com/watch?v=9Qu4fodFQG4)
+- [Función Polinomica](https://www.youtube.com/watch?v=co7E4VAHQR8)
+- [Función Exponencial](https://www.youtube.com/watch?v=gea1Wz-yMC0)
+- [Función Racional](https://www.youtube.com/watch?v=4PWf27vLNQs)
+- [Funciones Trigonométricas](https://www.youtube.com/watch?v=4tpi87_Y_y0)
+- [Función Inversa](https://www.youtube.com/watch?v=lfM_PBfIkvk)
 
 Vectores:
 
-[Suma Vectores en R2 y Gráfico](https://www.youtube.com/watch?v=xURTgxvG-3c)
-
-[Suma Vectores en R3 Y Gráfico](https://www.youtube.com/watch?v=sqkni90xet0)
-
-[Resta Vectores en R2 Y Gráfico](https://www.youtube.com/watch?v=vL8GIHsantM)
-
-[Producto Escalar](https://www.youtube.com/watch?v=5Yj9EVLJXBM)
-
-[Producto Cruz de dos vectores](https://www.youtube.com/watch?v=fmAhi1N-uL8&t=361s)
+- [Suma Vectores en R2 y Gráfico](https://www.youtube.com/watch?v=xURTgxvG-3c)
+- [Suma Vectores en R3 Y Gráfico](https://www.youtube.com/watch?v=sqkni90xet0)
+- [Resta Vectores en R2 Y Gráfico](https://www.youtube.com/watch?v=vL8GIHsantM)
+- [Producto Escalar](https://www.youtube.com/watch?v=5Yj9EVLJXBM)
+- [Producto Cruz de dos vectores](https://www.youtube.com/watch?v=fmAhi1N-uL8&t=361s)
 
 ---
 #### Teoría de conjuntos:
@@ -42,24 +31,31 @@ unión: ∪
 Dado:
 
 A = {1,2,3,4,5,6}
+
 B = {2,4,6,8,10}
+
 C = {5,6,7,8,9}
 
 Encontrar
 
 (A ∩ B) ∪ C 
+
 [se lee A intersección B, unido con C]
 
 (A ∩ B) = {2,4,6}
+
 (A ∩ B) ∪ C = {2,4,5,6,7,8,9}
 
 Encontrar
 
-(A ∩ C) ∩ (B ∪ C) 
+(A ∩ C) ∩ (B ∪ C)
+
 [se lee A intersección C, intersectado con B unión C]
 
 (A ∩ C) = {5,6}
+
 (B ∪ C) = {2,4,5,6,7,8,9,10}
+
 (A ∩ C) ∩ (B ∪ C)  = {5,6}
 
 2) Teoría de conjuntos / Operaciones combinadas:
@@ -69,8 +65,11 @@ Encontrar
 Dado:
 
 U = {a,b,c,d,e,f,g}
+
 A = {a,b,c,d}
+
 B = {a,c,e,g}
+
 C = {b,e,f,g}
 
 Aclaración: uso el símbolo ( ' ) para decir **complemento**, es decir los valores que le faltan a ese conjunto para completar el conjunto universal **(U)**. [En este link](https://www.disfrutalasmatematicas.com/conjuntos/venn-diagramas.html) lo llaman, "todo lo que **no** es" .
@@ -82,7 +81,9 @@ Encontrar
 (B' ∪ C)'
 
 B' = {b,d,f}
+
 B' ∪ C = {b,d,e,f,g}
+
 (B' ∪ C)' = {a,c}
 
 **Ejemplo 2:**
@@ -90,9 +91,13 @@ B' ∪ C = {b,d,e,f,g}
 (A ∪ B) ∩ (C' - A')
 
 A' = {e,f,g}
+
 C' = {a,c,d}
+
 A ∪ B = {a,b,c,d,e,g}
+
 C' - A' = {a,c,d}
+
 (A ∪ B) ∩ (C' - A') = {a,c,d}
 
 ---
@@ -170,7 +175,7 @@ ejemplo:
 ` f(x) = - 2x + 1 `
 ` g(x) = 1/2x - 5 `
 
-![](ppt-141-mat.png)
+![](113-assets/ppt-141-mat.png)
 
 Ejercicio de práctica: hallar una función lineal a partir de 2 puntos
 
@@ -185,7 +190,44 @@ La pendiente es: y2 - y1 sobre x2 - x1
 
 Para b (ordenada al origen): Reemplazar los puntos de la función X, Y
 
+
 (...)
+
+#### Función cuadrática
+X tiene exponente 2.
+
+Dominio: pertenecen al conjunto de los números R
+
+a > 0 : parábola de concavidad positiva
+a < 0 : parábola de concavidad negativa
+
+Se puede expresar de 3 formas:
+
+1) Polinómica
+
+- Nos viene dada la ordenada al origen (buscamos raices)
+
+f(x) = a x² + b x + c 
+
+![](113-assets/ppt-143-mat.png)
+
+2) Canónica
+
+- Nos vienen dado el vértice (buscamos )
+
+f(x) = a ( x - xv )² + yv 
+
+![](113-assets/ppt-144-mat.png)
+
+3) Factorizada
+
+- Nos vienen dadas las raices
+
+f(x) = a (x - x0) . (x - x1)
+
+![](113-assets/ppt-145-mat.png)
+
+
 
 ---
 
