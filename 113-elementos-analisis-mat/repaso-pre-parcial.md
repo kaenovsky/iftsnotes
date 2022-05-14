@@ -1,5 +1,5 @@
 ### Repaso completo
-Todos los temas del parcial, recopilados por un compañero (Demi)
+Todos los temas del parcial, recopilados por un compañero (Dami)
 
 - [Conjuntos](https://www.youtube.com/watch?v=YZRRUFG2UOY) 
 - [Función Lineal](https://www.youtube.com/watch?v=09kcKGsSEbw)
@@ -278,3 +278,15 @@ vector rojo:
 Ejemplo en video haciendo traslado de vectores, da el mismo resultado:
 
 ![](113-assets/ppt-140-mat.png)
+
+#### Suma de vectores en R3
+Analíticamente se suman sus componentes, en el gráfico se ubican een las rectas los puntos del vector, para obtener la suma hacemos la regla del paralelogramo.
+
+![](Pasted%20image%2020220513161949.png)
+
+
+#### notas post parcial
+
+[De esta forma se resolvía el punto 9](https://www.youtube.com/watch?v=FgCp7Y1Kkdo) --> data de Dami en grupo wpp
+
+Cuarto vértice de un paralelogramo en r3 | Área de un paralelogramo 
