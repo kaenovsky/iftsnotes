@@ -282,7 +282,7 @@ Ejemplo en video haciendo traslado de vectores, da el mismo resultado:
 #### Suma de vectores en R3
 Analíticamente se suman sus componentes, en el gráfico se ubican een las rectas los puntos del vector, para obtener la suma hacemos la regla del paralelogramo.
 
-![](Pasted%20image%2020220513161949.png)
+![](113-assets/ppt-146-mat.png)
 
 
 #### notas post parcial
