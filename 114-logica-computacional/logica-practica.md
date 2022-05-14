@@ -33,6 +33,31 @@ Estaba ok :D
 
 ![](114-assets/ppt-42-logic.png)
 
+#### Ejercicio 2 
+Ejercicio 2 de guía de actividades - comprobando que funciona por maxiter y minter de ambas formas (minuto 56:00 clase 3 de mayo [https://classroom.google.com/c/NDcxNzIwNTQ4MzY2/m/NDg2NzA2OTAwNjc2/details](https://classroom.google.com/c/NDcxNzIwNTQ4MzY2/m/NDg2NzA2OTAwNjc2/details "https://classroom.google.com/c/NDcxNzIwNTQ4MzY2/m/NDg2NzA2OTAwNjc2/details")) 
+
+**Comprobando por maxitérminos** 
+
+```
+P1 = ¬A1 x A0 + A1 x A0 
+
+P1 = 1 x 1 + 0 x 1 
+
+P1 = 1 + 0 
+
+P1 = 1
+```
+
+**Comprobando por minitérminos** 
+
+```
+P1 = ¬A1 x A0 + A1 x A0 
+
+P1 = 0 x 0 + 1 x 0 P1 = 0 + 0 
+
+P1 = 0
+```
+
 #### Tabla de Karnaugh
 
 (...)
