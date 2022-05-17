@@ -1,17 +1,17 @@
-### Guia autoevaluación
-Consignas:
+## Guia autoevaluación
+### Consignas:
 
-Ejercicio 1: escriba la tabla de verdad de la función ` z = c ⊕ ¬b ⊕ a `
+**Ejercicio 1:** escriba la tabla de verdad de la función ` z = c ⊕ ¬b ⊕ a `
 
-Ejercicio 2: dibuje el mapa de Karnaugh de z (obtenida en 2).
+**Ejercicio 2:** dibuje el mapa de Karnaugh de z (obtenida en 2).
 
-Ejercicio 3: obtenga la expresión lógica de la función, cuya tabla de verdad se muestra a continuación, utilizando Suma de Productos y Producto de Sumas.
+**Ejercicio 3:** obtenga la expresión lógica de la función, cuya tabla de verdad se muestra a continuación, utilizando Suma de Productos y Producto de Sumas.
 
-Ejercicio 4: simplifique la función analizada en 3 utilizando su mapa de Karnaugh (ya se lo damos dibujado).
+**Ejercicio 4:** simplifique la función analizada en 3 utilizando su mapa de Karnaugh (ya se lo damos dibujado).
 
 ---
 
-Ejercicio 1:
+#### Ejercicio 1:
 
 ` z = c ⊕ ¬b ⊕ a `
 
@@ -28,7 +28,9 @@ Ejercicio 1:
 | 1  | 1  | 0  | 0  | 1  | 1  |
 | 1  | 1  | 1  | 0  | 1  | 0  |
 
-Ejercicio 2:
+---
+
+#### Ejercicio 2:
 
 Mapa de Karnaugh de la función z
 
@@ -37,11 +39,13 @@ Mapa de Karnaugh de la función z
 | **0**       | 1  | 0  | 1  | 0  |
 | **1**       | 0  | 1  | 0  | 1  | 
 
-Ejercicio 3:
+---
+
+#### Ejercicio 3:
 
 Encontrar expresión lógica con Suma de Productos y Producto de Suma.
 
-![](Pasted%20image%2020220516205158.png)
+![](114-assets/ppt-46-logic.png)
 
 **Suma de Productos:** 
 (minter, se evaluan los 1, se niegan los 0)
@@ -53,14 +57,15 @@ Encontrar expresión lógica con Suma de Productos y Producto de Suma.
 
 ( C + B + A ) . ( C + ¬B + A ) . ( C + ¬B + ¬A )
 
+---
 
-Ejercicio 4:
+#### Ejercicio 4:
 
-![](Pasted%20image%2020220516210435.png)
+![](114-assets/ppt-47-logic.png)
 
 Agrupo los 1:
 
-![](Pasted%20image%2020220516210746.png)
+![](114-assets/ppt-48-logic.png)
 
 Busco cambios de valor en los términos:
 
