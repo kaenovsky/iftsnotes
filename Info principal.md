@@ -14,7 +14,7 @@ Web principal del IFTS N° 18: https://www.ifts18.edu.ar/
 
 [Plan de estudio completo](https://www.ifts18.edu.ar/carreras/tsds/plan-tsds)
 
-[Equivalencias con Análisis de Sistemas](https://www.ifts18.edu.ar/carreras/correlativas-entre-planes)
+[Equivalencias con Análisis de Sistemas](https://www.ifts18.edu.ar/carreras/equivalencias-entre-planes)
 
 
 ---
