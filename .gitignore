@@ -3,10 +3,12 @@
 !/.gitignore
 
 # no pushear comprobantes de inscripción a materias
-
 comprobante*
 inscripcion*
 
 # no mostrar parciales en dir /parciales/
 # después del deadline mv fuera del dir
 parciales*
+
+# no pushear pycache
+**/__pycache__
