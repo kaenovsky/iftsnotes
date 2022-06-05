@@ -1,5 +1,5 @@
 ### Práctica mysql
-Usando BD sakila.sql
+Usando BD sakila.sql -> [Descargar acá](https://dev.mysql.com/doc/sakila/en/)
   
 Realizar los siguietes Ejercicios:
 
