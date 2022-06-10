@@ -23,9 +23,6 @@ try:
 except FileExistsError:
     print('El archivo ya existe')
 
-#count = 0
-#os.makedirs("./newDir{}".format(count + 1))
-
 # borrar directorio
 
 # os.rmdir("./newDir")
@@ -35,13 +32,15 @@ except FileExistsError:
 lista_archivos = os.listdir("./")
 
 for archivo in lista_archivos:
-    # ver si es un archivo
 
+    # chequear si es un archivo
     if os.path.isfile("./" + archivo):
         print("es un archivo")
+
     # chequear tipo de archivo por su extensión
     if(archivo.endswith(".jpg")):
         print("es un archivo de imagen - jpg")
 
+    # chequear si es un directorio
     if os.path.isdir("./" + archivo):
         print("es un directorio")
