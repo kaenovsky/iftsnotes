@@ -24,7 +24,7 @@ SELECT DISTINCT store_id FROM store;
 4. traer los distintos nombres de las tiendas.
 
 ```
-SELECT * FROM store;
+SELECT DISTINCT * FROM store;
 ```
 
 5. Ordenar de manera ascendente por country en la tabla country
