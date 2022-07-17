@@ -4,7 +4,11 @@ Antes de usar Docker seteamos entorno localhost en XAMPP
 
 ![](./localhost-env-xampp.jpg)
 
+---
+
 ### Avances del proyecto
+
+:::: Scrum ::::
 
 w00 - trello
 
@@ -19,9 +23,12 @@ w-final - trello
 ![](./scr-trello-bd-w3.png)
 
 Avanzamos con la info del TP en el [siguiente repositorio](https://github.com/kaenovsky/crispy-fiesta)
+
 La app quedó corriendo en el [siguiente enlace](https://aurorita.bashe.ar:4000)
 
-Usamos:
+---
+
+:::: Stack ::::
 
 - HTML, CSS, JS [ front-end ]
 - PHP y MySQL [ back-end ]
@@ -64,10 +71,4 @@ Diseño web final por:
 
 Integrantes:
 
-Leandro Raúl Rossetti
-Lafiosca Victoria Micaela
-Martin Kaen
-Jamil Soto Quilez
-Thelusma Jean Emmanuel
-Gerardo Ariel Marchioni 
-Andres Fabian Hoyos
+Leandro Raúl Rossetti, Lafiosca Victoria Micaela, Martin Kaen, Jamil Soto Quilez, Thelusma Jean Emmanuel, Gerardo Ariel Marchioni, Andres Fabian Hoyos
