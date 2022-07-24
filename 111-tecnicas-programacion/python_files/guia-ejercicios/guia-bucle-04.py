@@ -22,6 +22,8 @@ while(num != 0):
     if(num > mayorActual):
         mayorActual = num
 
+    print("[ Ok! Siguiente número. Para finalizar ingrese 0.] ")
+
 print("El mayor de los números ingresados fue: ", mayorActual)
 
 print()
