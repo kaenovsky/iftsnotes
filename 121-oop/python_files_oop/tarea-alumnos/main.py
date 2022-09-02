@@ -11,7 +11,7 @@ y a qué curso pertenece
 import json
 data = json.load(open('students.json', 'r'))
 
-print("~~~~~ inicio del programa ~~~~~")
+print("~~~~~~~~~~~~~~~~~~~~")
 
 classroom = 1
 avgDict = {}
@@ -33,16 +33,17 @@ while(classroom < 11):
 
     avg = total / 30
     avgDict.update({classroom : avg})
-    print('La nota promedio del curso n° {} es {:.2f}'.format(classroom,avg))
+    print('La nota promedio del curso N° {} es: {:.2f}'.format(classroom,avg))
 
     classroom = classroom + 1
 
 topAvgGrade = max(avgDict.values())
 topAvgClass = max(avgDict,key=avgDict.get)
 
-print('El mejor promedio es {:.2f} (curso n° {})'.format(topAvgGrade,topAvgClass))
 print()
-print('~~~~~~~~~~~~')
+print("~~~~~~~~~~~~~~~~~~~~")
+print('El curso con mejor promedio es el N° {} (promedio: {:.2f})'.format(topAvgClass,topAvgGrade))
+print("~~~~~~~~~~~~~~~~~~~~")
 print()
 
 for i in data['ctRoot']:
@@ -50,6 +51,10 @@ for i in data['ctRoot']:
         topScoreStudents.update({i['name'] : i['classroom']})
 
 print('La mayor nota obtenida fue: ',topScore)
-print('Quienes obtuvieron esa nota y sus cursos son: ',json.dumps(topScoreStudents, indent=4))
+print('Quienes obtuvieron esa nota y sus cursos fueron:')
+print()
 
-print("~~~~~ fin del programa ~~~~~")
+for item in topScoreStudents:
+    print("~~~~~~~~~~~~~~~~~~~~")
+    print('Alumno: {} \nCurso N°: {}'.format(item,topScoreStudents[item]))
+    print("~~~~~~~~~~~~~~~~~~~~")
