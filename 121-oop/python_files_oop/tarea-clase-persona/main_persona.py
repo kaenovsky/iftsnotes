@@ -1,6 +1,6 @@
 # tarea: crear una clase Persona con atributos y metodos
 
-class Persona:
+class Persona(object):
     def __init__(self, nombre:str, edad:int, dni:str):
         self.nombre = nombre
         self.edad = edad
