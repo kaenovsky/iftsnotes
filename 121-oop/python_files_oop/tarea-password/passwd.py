@@ -59,7 +59,6 @@ def main():
     
     passwordsList = []
     cond = True
-    i = 0
 
     # Pedimos ingresar por teclado cantidad de caracteres
 
@@ -72,7 +71,7 @@ def main():
             passwd = Password()
         else:
             passwd = Password(chars)
-            
+
         passwordsList.append(passwd)        
         
         response = input('Desea ingresar otra longitud de contraseña?: [s/n] ')
@@ -81,10 +80,11 @@ def main():
             print('(!) error: Responda sí o no')
             response = input('Desea ingresar otra longitud de contraseña?: [s/n] ')
 
-        if(response == 'n'):
+        # Si el usuario ingresa N cambiamos la condición a False y salimos del bucle
+        if(response == 'n' or response == 'N'):
             cond = False
 
-    # iteramos passwordsList mostrando las contraseñas y si son fuertes
+    # Fuera del bucle, iteramos passwordsList mostrando las contraseñas y si son fuertes
 
     i = 1
 
