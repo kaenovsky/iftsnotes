@@ -30,16 +30,16 @@ class Password():
     def isStrong(self) -> bool:
         mayus = 0
         minus = 0
-        numbers = 0
+        numbs = 0
         for i in self.password:
             if(i.isdigit()):
-                numbers = numbers + 1
+                numbs = numbs + 1
             if(i.isupper()):
                 mayus = mayus + 1
             if(i.islower()):
                 minus = minus + 1
         
-        if mayus >= 2 and minus >= 1 and numbers > 5:
+        if mayus >= 2 and minus >= 1 and numbs > 5:
             return True
         else:
             return False
@@ -48,16 +48,51 @@ class Password():
         return (''.join(random.choice(string.ascii_letters + string.digits) for _ in range(self.__longitud)))
 
     def __str__(self) -> str:
-        return self.password + ' - ' + str(self.isStrong())
+        if self.isStrong():
+            res = 'La pass es fuerte [✓]'
+        else:
+            res = 'La pass no es fuerte [✕]'
+
+        return self.password + ' - ' + res
 
 def main():
-    passwordsList = []
-    pass1 = Password(5)
-    pass2 = Password(56)
-    passwordsList.append(pass1)
-    passwordsList.append(pass2)
     
-    for i in passwordsList:
-        print(i)
+    passwordsList = []
+    cond = True
+    i = 0
+
+    # Pedimos ingresar por teclado cantidad de caracteres
+
+    while(cond):
+        
+        print('Ingrese un número de cantidade caracteres.\nSi ingresa 0 se usará el valor por defecto')
+        
+        chars = int(input('Cantidad de caracteres: '))
+        if (chars == 0):
+            passwd = Password()
+        else:
+            passwd = Password(chars)
+            
+        passwordsList.append(passwd)        
+        
+        response = input('Desea ingresar otra longitud de contraseña?: [s/n] ')
+        
+        while(response != "n" and response != "N" and response != "s" and response != "S"):
+            print('(!) error: Responda sí o no')
+            response = input('Desea ingresar otra longitud de contraseña?: [s/n] ')
+
+        if(response == 'n'):
+            cond = False
+
+    # iteramos passwordsList mostrando las contraseñas y si son fuertes
+
+    i = 1
+
+    for p in passwordsList:
+        print()
+        print('Contraseña nro {}:'.format(i))
+        print(p)
+        print()
+        i = i + 1
 
 main()
