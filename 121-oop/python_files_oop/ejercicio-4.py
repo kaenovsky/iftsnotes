@@ -12,16 +12,9 @@ while(i < 5):
     numeros.append(inputNum)
     i = i + 1
 
-print(numeros)
+print('Los numeros ingresados son: ', numeros)
 
-lastItem = numeros[0] 
-repeat = False
-
-for item in numeros:
-    if(item == lastItem):
-        repeat = True
-        
-if(repeat):
-    print('Hay números repetidos')
-else:
+if len(numeros) == len(set(numeros)):
     print('No hay números repetidos')
+else:
+    print('Hay números repetidos')
