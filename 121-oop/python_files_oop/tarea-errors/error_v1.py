@@ -3,18 +3,18 @@ def agregar_una_vez(lista, elemento):
         lista.append(elemento)
         print('se agregó un elemento a la lista!')
     else:
-        raise ValueError('Error: Imposible añadir elementos duplicados', elemento)
+        raise ValueError('Error: Imposible añadir elementos duplicados => ' + str(elemento))
 
 def main():
     
     elementos = [1, 5, -2]
-    add = [10, -2, 4, 'hola']
+    nuevos_elementos = [10, -2, 4, 'hola']
 
-    for i in add:
+    for i in nuevos_elementos:
         try:
             agregar_una_vez(elementos, i)
-            print(elementos)
+            print('Lista actual: ', elementos)
         except Exception as e:
-            print('error: ', e)
+            print(e)
 
 main()
