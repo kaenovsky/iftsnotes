@@ -131,8 +131,7 @@ class CajaAhorro(CuentaBancaria):
 
     def extraer(self, monto_extraer) -> bool:
         if monto_extraer > self.saldo or monto_extraer > self.limite_extracciones:
-            print('Error, no puede extraer ese monto')
-            return False
+            raise ExtraerException(type(self).__name__)
         else:
             self.saldo = self.saldo - monto_extraer
             print('Extracción exitosa')
@@ -172,8 +171,7 @@ class CuentaCorriente(CuentaBancaria):
 
     def extraer(self, monto_extraer) -> bool:
         if monto_extraer > self.saldo + self.monto_descubierto:
-            print('Error, no puede extraer ese monto')
-            return False
+            raise ExtraerException(type(self).__name__)
         else:
             self.saldo = self.saldo - monto_extraer
             print('Extracción exitosa')
@@ -188,6 +186,17 @@ class CuentaCorriente(CuentaBancaria):
             print('Transferencia exitosa')
             return True
 
+# nueva feature: lanzar excepción propia
+
+class ExtraerException(Exception):
+    def __init__(self, value, mensaje='Error al extraer'):
+        super().__init__()
+        self.value = value
+        self.mensaje = mensaje
+    
+    def __str__(self):
+        return self.mensaje + ' en la instancia ' + str(self.value)
+
 def main():
     c1 = Cliente('Conglom-o', 20922929, 'Zapiola 2021')
     print(c1)
@@ -198,12 +207,22 @@ def main():
     print('Saldo actual: ', cuenta1.consultar_saldo())
     cuenta1.depositar(500920)
     print('Saldo actual CA: ', cuenta1.consultar_saldo())
-    cuenta1.extraer(50022920)
+    
+    try:
+        cuenta1.extraer(50022920)
+    except Exception as e:
+        print(e)
+
     print('Saldo actual CA: ', cuenta1.consultar_saldo())
     
     print('Saldo actual CC: ', cuenta2.consultar_saldo())
     cuenta2.monto_descubierto = -300
-    #cuenta2.extraer(400)
+    
+    try:
+        cuenta2.extraer(12200000)
+    except Exception as e:
+        print(e)
+
     print('Saldo actual CC: ', cuenta2.consultar_saldo())
     cuenta2.transferir(580)
     print('Saldo actual CC: ', cuenta2.consultar_saldo())
