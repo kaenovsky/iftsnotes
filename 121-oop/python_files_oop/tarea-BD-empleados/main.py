@@ -102,12 +102,14 @@ def main():
             print('Opción 4: Modificar area de empleado. Ingresará el número de legajo del empleado y el área a modificar.')
             nro_leg = int(input('Ingrese el número de legajo del empleado a modificar: '))
             area = input('Ingrese un área nueva para asignar a este empleado: ')
+            
             change_user(cur, nro_leg, area)
 
         elif opt == 5:
             conn_db()
             print('Opción 5: Eliminar registro de empleado. Ingrese el número de legajo del empleado a eliminar.')
             nro_leg = int(input('Ingrese el número de legajo del empleado a eliminar: '))
+            
             delete_user(cur, nro_leg)
 
         elif opt == 6:
