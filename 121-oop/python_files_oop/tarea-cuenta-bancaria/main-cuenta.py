@@ -146,6 +146,11 @@ class CajaAhorro(CuentaBancaria):
             self.saldo = self.saldo - monto_transferir
             print('Transferencia exitosa')
             return True
+            
+    # Implementamos los metodos concretos de la interfaz DAO
+    
+    def conectar_bd(nombre_bd):
+		 
 
 # definimos la clase concreta cuenta corriente
 
