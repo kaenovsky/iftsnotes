@@ -1,4 +1,5 @@
 from abc import ABC, abstractmethod
+import interface
 
 # definimos la clase concreta Cliente
 
@@ -45,7 +46,7 @@ class Cliente():
 
 # definimos la clase abstracta cuenta bancaria
 
-class CuentaBancaria(ABC):
+class CuentaBancaria(ABC, interface.Dao):
     def __init__(self, nro_cuenta:int, titular:Cliente, saldo:float):
         print('Inicializando instancia CuentaBancaria (...)')
         self.nro_cuenta = nro_cuenta
