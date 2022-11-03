@@ -149,7 +149,7 @@ class CajaAhorro(CuentaBancaria):
             
     # Implementamos los metodos concretos de la interfaz DAO
     
-    def conectar_bd(nombre_bd):
+    #def conectar_bd(nombre_bd):
 		 
 
 # definimos la clase concreta cuenta corriente
