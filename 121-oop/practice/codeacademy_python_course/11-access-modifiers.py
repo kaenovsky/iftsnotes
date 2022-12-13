@@ -1,6 +1,8 @@
 # Access Modifications
 # https://www.codecademy.com/courses/python-for-programmers/articles/access-modifications-python
 
+# Public Access Modifiers (default)
+
 class ClassSchedule:
     def __init__(self, course, instructor):
         self.course = course
