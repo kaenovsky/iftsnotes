@@ -25,3 +25,5 @@ print(intro2.title()) # prints 'Say Goodbye To 2022'
 print(intro.split()) # prints array ['My', 'name', 'is', 'Jeff!']
 print(intro.split('name')) # prints ['My ', ' is Jeff!']
 print(intro.split('!')) #prints ['My name is Jeff', '']
+
+# More about strings at https://www.codecademy.com/learn/paths/learn-python-3/tracks/learn-python-3/modules/learn-python3-strings/cheatsheet
