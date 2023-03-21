@@ -4,7 +4,11 @@ Web principal del IFTS N° 18: https://www.ifts18.edu.ar/
 
 #### Horarios de cursada
 
-[Ver todos los horarios en la web](https://www.ifts18.edu.ar/carreras/tsds/horario-tsds)
+[Ver todos los horarios en la web](https://www.ifts18.edu.ar/carreras/desarrollo-de-software/horario-tsds)
+
+Tercer cuatrimestre:
+
+![](./horarios-cuatrim-03.png)
 
 Segundo cuatrimestre:
 
@@ -18,7 +22,7 @@ Primer cuatrimestre:
 
 #### Información Institucional
 
-[Plan de estudio completo](https://www.ifts18.edu.ar/carreras/tsds/plan-tsds)
+[Plan de estudio completo](https://www.ifts18.edu.ar/carreras/desarrollo-de-software/plan-tsds)
 
 [Equivalencias con Análisis de Sistemas](https://www.ifts18.edu.ar/carreras/equivalencias-entre-planes)
 
