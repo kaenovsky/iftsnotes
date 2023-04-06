@@ -6,7 +6,7 @@ public class Impares {
 
 		Scanner scanner = new Scanner(System.in);
 		System.out.println("Ingrese un numero para saber si es par o impar:");
-		Integer num = scanner.nextInt();
+		int num = scanner.nextInt();
 
 		if(num % 2 == 0) {
 		

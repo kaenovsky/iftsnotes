@@ -7,8 +7,8 @@ public class Multiplos {
 		Scanner scanner = new Scanner(System.in);
 		System.out.println("### Debe ingresar dos números ###");
         
-        Integer num1 = 0;
-        Integer num2 = 0;
+        int num1 = 0;
+        int num2 = 0;
 
         // Ingreso de valores
 
