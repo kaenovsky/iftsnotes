@@ -10,7 +10,7 @@ public class Sueldos {
         boolean res = true;
         int i = 1;
         String name;
-        Float hours, hvalue, salary;
+        float hours, hvalue, salary;
 
         while(res) {
             System.out.println("Ingrese empleado n° " + i);
@@ -38,7 +38,7 @@ public class Sueldos {
                 res = false;
             }
 
-            i++;
+            i++; // increment loop counter
 
             scanner.nextLine(); // consume line break
 
