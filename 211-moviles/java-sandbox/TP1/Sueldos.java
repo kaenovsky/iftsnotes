@@ -1,3 +1,5 @@
+// Ejercicio 3 TP1
+
 import java.util.Scanner;
 
 public class Sueldos {

@@ -1,3 +1,5 @@
+// Ejercicio 2 TP1
+
 import java.util.Scanner;
 
 public class Multiplos {
