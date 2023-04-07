@@ -12,3 +12,6 @@ parciales*
 
 # no pushear pycache
 **/__pycache__
+
+# no pushear java compilado
+*.class
