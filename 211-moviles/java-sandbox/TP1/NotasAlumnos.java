@@ -1,7 +1,6 @@
 // Ejercicio 6 TP1
 
 import java.util.Scanner;
-import java.util.ArrayList;
 
 public class NotasAlumnos {
 
