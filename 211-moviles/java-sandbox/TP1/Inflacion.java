@@ -38,9 +38,9 @@ public class Inflacion {
             map.put(product, inflation);
 
             System.out.println("Para continuar la carga de artículos ingrese 1. Para finalizar ingrese 0.");
-            int nextUser = scanner.nextInt();
+            int nextProd = scanner.nextInt();
             
-            if(nextUser == 0) {
+            if(nextProd == 0) {
                 res = false;
             }
 
@@ -55,11 +55,19 @@ public class Inflacion {
         System.out.println("~~~~~~~~~~~~~~~~~~~");
 
         // Show Report
-
         System.out.println("~~~~~~~~~~~~~~~~~~~");
         System.out.println("Reporte inflación de artículos"); 
         System.out.println("~~~~~~~~~~~~~~~~~~~");
         System.out.println("::: Total de artículos cargados: " + i + " :::");
+        System.out.println("~~~~~~~~~~~~~~~~~~~");
+        
+        // Average inflation rate (sum all values)
+        double sum = 0.0f;
+        for (double f : map.values()) {
+            sum += f;
+        }
+
+        System.out.println("Promedio de inflación: " + sum / i);
 
         // Find the max value of hashmap
         Double max = Collections.max(map.values());
