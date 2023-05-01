@@ -7,7 +7,7 @@ class Password():
 
     # método inicializador
     def __init__(self, longitud=LONGITUD):
-        print('Inicializando instancia password (...)')
+        print('Inicializando instancia password (...). Puede continuar.')
         self.longitud = longitud
         self.password = self.makePassword()
 
@@ -64,7 +64,7 @@ def main():
 
     while(cond):
         
-        print('Ingrese un número de cantidade caracteres.\nSi ingresa 0 se usará el valor por defecto')
+        print('Ingrese un número de cantidad de caracteres.\nSi ingresa 0 se usará el valor por defecto (8)')
         
         chars = int(input('Cantidad de caracteres: '))
         if (chars == 0):
