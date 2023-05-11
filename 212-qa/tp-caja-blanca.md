@@ -1,6 +1,6 @@
 Ejercicio de ejemplo:
 
-Algoritmo, que dada una fecha del año 2000 (representada por el día, el mes y el año en formato numérico dd/mm/aaaa), calcule el día siguiente. Asuma que el mes tiene 30 días.
+Algoritmo, que dada una fecha del año 2020 (representada por el día, el mes y el año en formato numérico dd/mm/aaaa), calcule el día siguiente. Asuma que el mes tiene 30 días.
 
 ```py
 # -*- coding: utf-8 -*-
@@ -40,7 +40,7 @@ else:
 | Nombre de TC        | Cambio de mes                               |
 | Descripción         | Comprobar que el cambio de mes es correcto  |
 | Supuestos y cond. P | El mes tiene 30 días                        |
-| Datos de prueba     | año = 2000 ~~ mes = 4 ~~ día = 30           |
+| Datos de prueba     | año = 2020 ~~ mes = 4 ~~ día = 30           |
 | Pasos a Ejecutar    | 1. Ejecute el programa                      |
 |                     | 2. Ingrese los datos de prueba              |
 | Resultado esperado  | Imprimir "Mañana es 1 5 2020"               |
