@@ -65,4 +65,4 @@ Con esta llamada a la API mostramos qué playlist está sonando.
 
 ---
 
-Una vez que arme el PPT lo dejo subido este mismo directorio ./211-assets/
+Una vez que arme el PPT lo dejo subido este mismo directorio ./211-assets/ppt-api/
