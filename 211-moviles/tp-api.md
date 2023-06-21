@@ -73,13 +73,13 @@ En base al análisis anterior de la API de AzuraCast, hago una tabla comparativa
 
 **Info de las tablas**
 
-API: La empresa o aplicación que mantiene la API en cuestión.
-Des: Descripción corta de la API.
-Doc: Link a la documentación.
-Cos: Costo, si es gratuita o de pago.
-Mod: Modalidad en la que se distribuye (SOAP o REST).
-Use: Por qué la utilizaría en una app.
-Fun: Nombrar un ejemplo de implementación funcional.
+- API: La empresa o aplicación que mantiene la API en cuestión.
+- Des: Descripción corta de la API.
+- Doc: Link a la documentación.
+- Cos: Costo, si es gratuita o de pago.
+- Mod: Modalidad en la que se distribuye (SOAP o REST).
+- Use: Por qué la utilizaría en una app.
+- Fun: Nombrar un ejemplo de implementación funcional.
 
 ---
 
