@@ -66,3 +66,41 @@ Con esta llamada a la API mostramos qué playlist está sonando.
 ---
 
 Una vez que arme el PPT lo dejo subido este mismo directorio ./211-assets/ppt-api/
+
+### Comparativa otras API
+
+En base al análisis anterior de la API de AzuraCast, hago una tabla comparativa con otras API reconocidas.
+
+**Info de las tablas**
+
+API: La empresa o aplicación que mantiene la API en cuestión.
+Des: Descripción corta de la API.
+Doc: Link a la documentación.
+Cos: Costo, si es gratuita o de pago.
+Mod: Modalidad en la que se distribuye (SOAP o REST).
+Use: Por qué la utilizaría en una app.
+Fun: Nombrar un ejemplo de implementación funcional.
+
+---
+
+| API | Spotify |
+| --- | ------- |
+| **Des** | Nos permite obtener información de artistas y canciones |
+| **Doc** | [https://developer.spotify.com/documentation/web-api](https://developer.spotify.com/documentation/web-api) |
+| **Cos** | Gratuito |
+| **Mod** | REST |
+| **Use** | Obtener datos de artistas, canciones, podcast y más |
+| **Fun** | Mostrar todos los podcast de un programa |
+
+---
+
+| API | Duolingo (non-official) |
+| --- | ------- |
+| **Des** | Nos permite obtener palabras y frases en distintos idiomas de Duolingo |
+| **Doc** | [https://pypi.org/project/duolingo-api/](https://pypi.org/project/duolingo-api/) |
+| **Cos** | Gratuito (no es oficial, está mantenida por usuarios) |
+| **Mod** | REST |
+| **Use** | Obtener palabras y sonidos en distintos idiomas |
+| **Fun** | Mostrar una palabra por día en el idioma que querramos (para un juego tipo Wordle) |
+
+---
