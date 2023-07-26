@@ -105,12 +105,85 @@
             "grade": 10
         },
         {
-            "code": 214,
+            "code": 215,
             "name": "Practica Profesional II",
             "year": 2,
             "semester": 1,
             "status": "Aprobada",
             "grade": 10
+        },
+        {
+            "code": 221,
+            "name": "Desarrollo de Sistemas Web (Back End)",
+            "year": 2,
+            "semester": 2,
+            "status": "Pendiente",
+            "grade": null
+        },
+        {
+            "code": 222,
+            "name": "Desarrollo de Sistemas Web (Front End)",
+            "year": 2,
+            "semester": 2,
+            "status": "Pendiente",
+            "grade": null
+        },
+        {
+            "code": 223,
+            "name": "Ingenieria de Software",
+            "year": 2,
+            "semester": 2,
+            "status": "Pendiente",
+            "grade": null
+        },
+        {
+            "code": 224,
+            "name": "Desarrollo e Implementación de Sistemas en la Nube",
+            "year": 2,
+            "semester": 2,
+            "status": "Pendiente",
+            "grade": null
+        },
+        {
+            "code": 311,
+            "name": "Programación sobre Redes",
+            "year": 3,
+            "semester": 1,
+            "status": "Pendiente",
+            "grade": null
+        },
+        {
+            "code": 312,
+            "name": "Seminario de Profundización y/o Actualización",
+            "year": 3,
+            "semester": 1,
+            "status": "Pendiente",
+            "grade": null
+        },
+        {
+            "code": 313,
+            "name": "Gestión de Proyectos",
+            "year": 3,
+            "semester": 1,
+            "status": "Pendiente",
+            "grade": null
+        },
+        {
+            "code": 314,
+            "name": "Trabajo, Tecnología y Sociedad",
+            "year": 3,
+            "semester": 1,
+            "status": "Pendiente",
+            "grade": null
+        }
+        ,
+        {
+            "code": 315,
+            "name": "Proyecto Integrador",
+            "year": 3,
+            "semester": 1,
+            "status": "Pendiente",
+            "grade": null
         }
     ]
 
