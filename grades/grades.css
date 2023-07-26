@@ -6,11 +6,6 @@ body {
     font-family: 'Open Sans', sans-serif;
 }
 
-main {
-    max-width: 60rem;
-    margin: 0 auto;    
-}
-
 h1, h2 {
     text-align: center;
     font-size: 1.4rem;
@@ -58,11 +53,18 @@ p {
 }
 
 .status {
-    background-color: green;
     font-size: .9rem;
     width: 7rem;
     text-align: center;
     padding: .5rem;
     border-radius: 4px;
     margin: 1rem auto 0 auto;
+}
+
+.green {
+    background-color: green;
+}
+
+.grey {
+    background-color: grey;
 }

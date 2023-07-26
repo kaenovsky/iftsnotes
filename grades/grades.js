@@ -2,13 +2,12 @@ async function getGrades() {
     const response = await fetch("https://raw.githubusercontent.com/kaenovsky/iftsnotes/main/grades/grades.json");
     const data = await response.json();    
     const arrGrades = data.Grades;
-    let totalGrades = 0;
+    let sumGrades = 0;
+    let totalGrades = 0;    
 
     const container = document.querySelector('.grades-container');
     
-    for (let i of arrGrades) {
-
-        totalGrades = totalGrades + i.grade;
+    for (let i of arrGrades) {        
         
         // create card element
         const newCard = document.createElement('div');
@@ -26,12 +25,26 @@ async function getGrades() {
         // create grade element with grade
         const newGrade = document.createElement('p');
         newGrade.classList.add('grade');
-        newGrade.innerText = `Nota final: ${i.grade}`;
+        
+        if (i.grade != null) {
+            totalGrades = totalGrades + 1;
+            sumGrades = sumGrades + i.grade;
+            newGrade.innerText = `Nota final: ${i.grade}`;
+        } else {
+            newGrade.innerText = `Final todavia no rendido`;
+        }
+
         newDiv.appendChild(newGrade);
     
-        // set status (TBD toggle style)
+        // set status
         const newStatus = document.createElement('div');
-        newStatus.classList.add('status');
+
+        if (i.status === 'Aprobada') {
+            newStatus.classList.add('status', 'green');
+        } else {
+            newStatus.classList.add('status', 'grey');
+        }
+
         newStatus.innerText = i.status;
     
         // add elements to card
@@ -43,7 +56,7 @@ async function getGrades() {
     }
 
     // show average
-    const avg = totalGrades / arrGrades.length;
+    const avg = sumGrades / totalGrades;
     document.querySelector('#average').innerText = avg.toFixed(2);
 }
 
