@@ -6,6 +6,12 @@ body {
     font-family: 'Open Sans', sans-serif;
 }
 
+main {
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+}
+
 h1, h2 {
     text-align: center;
     font-size: 1.4rem;
@@ -14,13 +20,24 @@ h1, h2 {
 
 h2 {
     border: 1px solid #fff;
-    max-width: 12rem;
-    margin: 0 auto;
+    padding: .5rem 2rem;
+    margin: 1rem auto;
 }
 
 p {
     padding: 0;
     margin: 0;
+}
+
+.progressContainer {
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    margin: 2rem;
+}
+
+.progressContainer progress {
+    width: 210px;
 }
 
 .grades-container {

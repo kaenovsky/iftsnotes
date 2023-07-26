@@ -58,6 +58,19 @@ async function getGrades() {
     // show average
     const avg = sumGrades / totalGrades;
     document.querySelector('#average').innerText = avg.toFixed(2);
+
+    // show progress status
+    const progressNum = Math.floor(totalGrades * 100 / arrGrades.length);
+    console.log(totalGrades);
+    console.log(arrGrades.length);
+    console.log(progressNum);
+
+    // add progress number to markup
+    const progressBar = document.querySelector('#progressBar');
+    const progressNumSpan = document.querySelector('#progressNum');
+    progressBar.value = progressNum;
+    progressNumSpan.innerText = `${progressNum}%`;
+
 }
 
 getGrades();

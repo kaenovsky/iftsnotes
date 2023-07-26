@@ -7,9 +7,15 @@
     <link rel="stylesheet" href="./grades.css">
 </head>
 <body>
-    <main>
+    <main>        
         <h1>Notas de la cursada (2022 - 2023)</h1>
         <h2>Promedio: <span id="average"></span></h2>
+        
+        <div class="progressContainer">
+            <label for="progressBar">Porcentaje de progreso (<span id="progressNum"></span>)</label>
+            <progress id="progressBar" max="100"></progress>
+        </div>
+
         <div class="grades-container">
         <!-- 
             <div class="card">
