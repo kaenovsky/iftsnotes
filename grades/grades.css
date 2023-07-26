@@ -11,10 +11,16 @@ main {
     margin: 0 auto;    
 }
 
-h1 {
+h1, h2 {
     text-align: center;
     font-size: 1.4rem;
     font-weight: 800;
+}
+
+h2 {
+    border: 1px solid #fff;
+    max-width: 12rem;
+    margin: 0 auto;
 }
 
 p {

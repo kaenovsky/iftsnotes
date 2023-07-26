@@ -2,10 +2,13 @@ async function getGrades() {
     const response = await fetch("https://raw.githubusercontent.com/kaenovsky/iftsnotes/main/grades/grades.json");
     const data = await response.json();    
     const arrGrades = data.Grades;
+    let totalGrades = 0;
 
     const container = document.querySelector('.grades-container');
     
     for (let i of arrGrades) {
+
+        totalGrades = totalGrades + i.grade;
         
         // create card element
         const newCard = document.createElement('div');
@@ -38,6 +41,10 @@ async function getGrades() {
         // add card to markup
         container.appendChild(newCard);
     }
+
+    // show average
+    const avg = totalGrades / arrGrades.length;
+    document.querySelector('#average').innerText = avg.toFixed(2);
 }
 
 getGrades();
