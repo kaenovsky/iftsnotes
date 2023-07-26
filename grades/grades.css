@@ -10,6 +10,7 @@ main {
     display: flex;
     flex-flow: column nowrap;
     align-items: center;
+    margin: 1rem;
 }
 
 h1, h2 {
@@ -21,7 +22,7 @@ h1, h2 {
 h2 {
     border: 1px solid #fff;
     padding: .5rem 2rem;
-    margin: 1rem auto;
+    margin: 2rem 0 .5rem 0;
 }
 
 p {
@@ -29,11 +30,24 @@ p {
     margin: 0;
 }
 
+.subtext {
+    font-size: 1.2rem;
+    max-width: 60rem;
+}
+
+.subtext a, .subtext a:visited {
+    color: #fff;
+}
+
+.subtext a:hover {
+    color: aqua;
+}
+
 .progressContainer {
     display: flex;
     flex-flow: column nowrap;
     justify-content: center;
-    margin: 2rem;
+    margin: .5rem 0 1rem 0;
 }
 
 .progressContainer progress {
