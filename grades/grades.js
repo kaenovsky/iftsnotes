@@ -11,15 +11,20 @@ async function getGrades() {
         const newCard = document.createElement('div');
         newCard.classList.add('card');
     
+        // create div container for title and grade
+        const newDiv = document.createElement('div');        
+        
         // create title for card
         const newTitle = document.createElement('p');
         newTitle.classList.add('title');
         newTitle.innerText = i.name;
+        newDiv.appendChild(newTitle);
     
         // create grade element with grade
         const newGrade = document.createElement('p');
         newGrade.classList.add('grade');
         newGrade.innerText = `Nota final: ${i.grade}`;
+        newDiv.appendChild(newGrade);
     
         // set status (TBD toggle style)
         const newStatus = document.createElement('div');
@@ -27,8 +32,7 @@ async function getGrades() {
         newStatus.innerText = i.status;
     
         // add elements to card
-        newCard.appendChild(newTitle);
-        newCard.appendChild(newGrade);
+        newCard.appendChild(newDiv);
         newCard.appendChild(newStatus);
     
         // add card to markup

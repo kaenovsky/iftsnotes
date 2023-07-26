@@ -1,6 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;800&display=swap');
+
 body {
     background-color: #22272e;
     color: #fff;
+    font-family: 'Open Sans', sans-serif;
 }
 
 main {
@@ -10,7 +13,8 @@ main {
 
 h1 {
     text-align: center;
-    font-size: 1.5rem;
+    font-size: 1.4rem;
+    font-weight: 800;
 }
 
 p {
@@ -26,15 +30,19 @@ p {
 }
 
 .card {
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content:space-between;
     margin: .5rem;
     width: 20rem;
+    height: 9rem;
     background-color: #050607;
     padding: 1rem;
     border-radius: 4px;
 }
 
 .card .title {
-    font-size: 1.2rem;
+    font-size: 1rem;
     font-weight: bold;
     text-decoration: underline;
     margin: 0 0 .5rem 0;
@@ -46,9 +54,10 @@ p {
 
 .status {
     background-color: green;
-    max-width: 4rem;
+    font-size: .9rem;
+    width: 7rem;
     text-align: center;
-    padding: .3rem;
+    padding: .5rem;
     border-radius: 4px;
     margin: 1rem auto 0 auto;
 }
