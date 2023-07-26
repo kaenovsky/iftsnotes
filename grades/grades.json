@@ -17,6 +17,14 @@
             "grade": 9
         },
         {
+            "code": 113,
+            "name": "Elementos de Analisis Matematico",
+            "year": 1,
+            "semester": 1,
+            "status": "Pendiente",
+            "grade": null
+        },
+        {
             "code": 114,
             "name": "Logica Computacional",
             "year": 1,
