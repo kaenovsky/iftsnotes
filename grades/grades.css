@@ -1,0 +1,54 @@
+body {
+    background-color: #22272e;
+    color: #fff;
+}
+
+main {
+    max-width: 60rem;
+    margin: 0 auto;    
+}
+
+h1 {
+    text-align: center;
+    font-size: 1.5rem;
+}
+
+p {
+    padding: 0;
+    margin: 0;
+}
+
+.grades-container {
+    padding: 1rem;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+}
+
+.card {
+    margin: .5rem;
+    width: 20rem;
+    background-color: #050607;
+    padding: 1rem;
+    border-radius: 4px;
+}
+
+.card .title {
+    font-size: 1.2rem;
+    font-weight: bold;
+    text-decoration: underline;
+    margin: 0 0 .5rem 0;
+}
+
+.card .grade {
+    font-size: 1rem;
+}
+
+.status {
+    background-color: green;
+    max-width: 4rem;
+    text-align: center;
+    padding: .3rem;
+    border-radius: 4px;
+    margin: 1rem auto 0 auto;
+}
