@@ -1,0 +1,109 @@
+{
+    "Grades": [
+        {
+            "code": 111,
+            "name": "Tecnicas de Programacion",
+            "year": 1,
+            "quarter": 1,
+            "status": "Aprobada",
+            "grade": 10
+        },
+        {
+            "code": 112,
+            "name": "Administracion de Bases de Datos",
+            "year": 1,
+            "quarter": 1,
+            "status": "Aprobada",
+            "grade": 9
+        },
+        {
+            "code": 114,
+            "name": "Logica Computacional",
+            "year": 1,
+            "quarter": 1,
+            "status": "Aprobada",
+            "grade": 8
+        },
+        {
+            "code": 121,
+            "name": "Programacion Orientada a Objetos",
+            "year": 1,
+            "quarter": 2,
+            "status": "Aprobada",
+            "grade": 9
+        },
+        {
+            "code": 122,
+            "name": "Diseño y Modelado de Software",
+            "year": 1,
+            "quarter": 2,
+            "status": "Aprobada",
+            "grade": 10
+        },
+        {
+            "code": 123,
+            "name": "Probabilidad y Estadistica",
+            "year": 1,
+            "quarter": 2,
+            "status": "Aprobada",
+            "grade": 8
+        },
+        {
+            "code": 124,
+            "name": "Ingles",
+            "year": 1,
+            "quarter": 2,
+            "status": "Aprobada",
+            "grade": 9
+        },
+        {
+            "code": 125,
+            "name": "Practica Profesional I",
+            "year": 1,
+            "quarter": 2,
+            "status": "Aprobada",
+            "grade": 9
+        },
+        {
+            "code": 211,
+            "name": "Desarrollo para Dispositivos Moviles",
+            "year": 2,
+            "quarter": 1,
+            "status": "Aprobada",
+            "grade": 9
+        },
+        {
+            "code": 212,
+            "name": "Metodologia de Prueba de Sistemas",
+            "year": 2,
+            "quarter": 1,
+            "status": "Aprobada",
+            "grade": 8
+        },
+        {
+            "code": 213,
+            "name": "Tecnologias de la Informacion y de la Comunicacion",
+            "year": 2,
+            "quarter": 1,
+            "status": "Aprobada",
+            "grade": 10
+        },
+        {
+            "code": 214,
+            "name": "Taller de Comunicaciones",
+            "year": 2,
+            "quarter": 1,
+            "status": "Aprobada",
+            "grade": 10
+        },
+        {
+            "code": 214,
+            "name": "Practica Profesional II",
+            "year": 2,
+            "quarter": 1,
+            "status": "Aprobada",
+            "grade": 10
+        }
+    ]
+
+}
