@@ -17,7 +17,7 @@ async function getGrades() {
         // create title for card
         const newTitle = document.createElement('p');
         newTitle.classList.add('title');
-        newTitle.innerText = i.name;
+        newTitle.innerText = `${i.code} - ${i.name}`;
         newDiv.appendChild(newTitle);
     
         // create grade element with grade
