@@ -61,9 +61,9 @@ async function getGrades() {
 
     // show progress status
     const progressNum = Math.floor(totalGrades * 100 / arrGrades.length);
-    console.log(totalGrades);
-    console.log(arrGrades.length);
-    console.log(progressNum);
+    console.log(`Cantidad de materias aprobadas: ${totalGrades} materias`);
+    console.log(`Cantidad de materias de la carrera: ${arrGrades.length} materias`);
+    console.log(`Por lo tanto, el porcentaje de progreso de la carrera es: ${progressNum}%`);
 
     // add progress number to markup
     const progressBar = document.querySelector('#progressBar');
