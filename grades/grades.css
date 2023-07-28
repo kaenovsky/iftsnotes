@@ -1,7 +1,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;800&display=swap');
 
 body {
-    background-color: #22272e;
+    /* Gradient color for brackground */
+    background: hsla(205, 46%, 10%, 1);
+    background: linear-gradient(90deg, hsla(205, 46%, 10%, 1) 0%, hsla(191, 28%, 23%, 1) 50%, hsla(207, 41%, 27%, 1) 100%);
+    background: -moz-linear-gradient(90deg, hsla(205, 46%, 10%, 1) 0%, hsla(191, 28%, 23%, 1) 50%, hsla(207, 41%, 27%, 1) 100%);
+    background: -webkit-linear-gradient(90deg, hsla(205, 46%, 10%, 1) 0%, hsla(191, 28%, 23%, 1) 50%, hsla(207, 41%, 27%, 1) 100%);
+    filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#0E1C26", endColorstr="#2A454B", GradientType=1 );
+    /* end gradient */
     color: #fff;
     font-family: 'Open Sans', sans-serif;
 }
@@ -66,7 +72,7 @@ p {
     flex-flow: column nowrap;
     justify-content:space-between;
     margin: .5rem;
-    width: 20rem;
+    width: 22rem;
     height: 9rem;
     background-color: #050607;
     padding: 1rem;
@@ -80,16 +86,11 @@ p {
 }
 
 .card .grade {
-    font-size: 1rem;
+    font-size: 1.4rem;
 }
 
 .status {
-    font-size: .9rem;
-    width: 7rem;
-    text-align: center;
-    padding: .5rem;
-    border-radius: 4px;
-    margin: 1rem auto 0 auto;
+    font-size: 1.2rem;
 }
 
 .green {

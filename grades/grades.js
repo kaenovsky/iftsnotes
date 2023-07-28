@@ -30,8 +30,6 @@ async function getGrades() {
             totalGrades = totalGrades + 1;
             sumGrades = sumGrades + i.grade;
             newGrade.innerText = `Nota final: ${i.grade}`;
-        } else {
-            newGrade.innerText = `Final todavia no rendido`;
         }
 
         newDiv.appendChild(newGrade);
@@ -40,12 +38,14 @@ async function getGrades() {
         const newStatus = document.createElement('div');
 
         if (i.status === 'Aprobada') {
-            newStatus.classList.add('status', 'green');
+            newStatus.classList.add('status');
+            newCard.classList.add('green');
+            newStatus.innerText = i.status + "  🚀";
         } else {
-            newStatus.classList.add('status', 'grey');
+            newStatus.classList.add('status');
+            newCard.classList.add('grey');
+            newStatus.innerText = i.status + "  👀";
         }
-
-        newStatus.innerText = i.status;
     
         // add elements to card
         newCard.appendChild(newDiv);
