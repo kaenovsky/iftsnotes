@@ -39,11 +39,11 @@ async function getGrades() {
 
         if (i.status === 'Aprobada') {
             newStatus.classList.add('status');
-            newCard.classList.add('green');
+            newCard.classList.add('green', 'isApproved', 'toggle-content', 'is-visible');
             newStatus.innerText = i.status + "  🚀";
         } else {
             newStatus.classList.add('status');
-            newCard.classList.add('grey');
+            newCard.classList.add('grey', 'isPending', 'toggle-content', 'is-visible');
             newStatus.innerText = i.status + "  👀";
         }
     
@@ -74,3 +74,43 @@ async function getGrades() {
 }
 
 getGrades();
+
+// Toggle element visibility
+const toggle = function (elem) {
+    console.log(elem)
+    for (let i of elem) {
+        i.classList.toggle('is-visible');
+    }
+};
+
+// Listen for click events (approved)
+document.addEventListener('click', function (event) {
+
+	// Make sure clicked element is our toggle
+	if (!event.target.classList.contains('toggleA')) return;
+
+	// Get the content
+	let cardsA = document.querySelectorAll('.isApproved');
+    console.log(cardsA)
+	if (!cardsA) return;
+
+	// Toggle the content
+	toggle(cardsA);
+
+}, false);
+
+// Listen for click events (pending)
+document.addEventListener('click', function (event) {
+
+	// Make sure clicked element is our toggle
+	if (!event.target.classList.contains('toggleP')) return;
+
+	// Get the content
+	let cardsP = document.querySelectorAll('.isPending');
+    console.log(cardsP)
+	if (!cardsP) return;
+
+	// Toggle the content
+	toggle(cardsP);
+
+}, false);

@@ -100,3 +100,18 @@ p {
 .grey {
     background-color: grey;
 }
+
+/* Toggle show / display  */
+
+.toggleButtons {
+    display: flex;
+    flex-flow: column;
+}
+
+.toggle-content {
+	display: none;
+}
+
+.toggle-content.is-visible {
+	display: flex;
+}
