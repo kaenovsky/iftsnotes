@@ -36,14 +36,14 @@ async function getGrades() {
     
         // set status
         const newStatus = document.createElement('div');
+        newStatus.classList.add('status');
+        newCard.classList.add('toggle-content', 'is-visible');
 
         if (i.status === 'Aprobada') {
-            newStatus.classList.add('status');
-            newCard.classList.add('green', 'isApproved', 'toggle-content', 'is-visible');
+            newCard.classList.add('green', 'isApproved');
             newStatus.innerText = i.status + "  🚀";
         } else {
-            newStatus.classList.add('status');
-            newCard.classList.add('grey', 'isPending', 'toggle-content', 'is-visible');
+            newCard.classList.add('grey', 'isPending');
             newStatus.innerText = i.status + "  👀";
         }
     
