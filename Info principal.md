@@ -6,6 +6,10 @@ Web principal del IFTS N° 18: https://www.ifts18.edu.ar/
 
 [Ver todos los horarios en la web](https://www.ifts18.edu.ar/carreras/desarrollo-de-software/horario-tsds)
 
+Cuarto cuatrimestre:
+
+![](./horarios-cuatrim-04.png)
+
 Tercer cuatrimestre:
 
 ![](./horarios-cuatrim-03.png)
