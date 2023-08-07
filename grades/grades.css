@@ -10,6 +10,7 @@ body {
     /* end gradient */
     color: #fff;
     font-family: 'Open Sans', sans-serif;
+    min-height: 100vh;
 }
 
 main {
