@@ -61,4 +61,6 @@ This consumption-based model has many benefits, including:
 
 Instead of maintaining CPUs and storage in your datacenter, you rent them for the time that you need them.
 
+## Knowledge check
+
 ![](./azure-LP-assets/az-02.png)
