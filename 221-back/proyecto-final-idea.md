@@ -7,7 +7,7 @@ En función de lo propuesto en el pdf con los requisitos del sistema fui adaptan
 
 ### chinobasico.ar 
 
-El nombre del proyecto es Chino básico, ya que se trata de una web donde conoceremos lo mínimo del idioma más hablando del mundo.
+El nombre del proyecto es Chino básico, ya que se trata de una web donde conoceremos algunas particularidades del idioma con más hablantes nativos del mundo.
 
  #### Rutas
  
