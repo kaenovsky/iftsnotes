@@ -3,6 +3,8 @@
 Voy ampliando la idea del proyecto en base a lo planteado en el texto anterior (ver en `./07-clase-221.md`).
 En función de lo propuesto en el pdf con los requisitos del sistema fui adaptando el proyecto para que tenga 3 apps, 10 urls y 3 ABM. También una parte del sistema estará restringido para usuario administrador.
 
+<img src="https://upload.wikimedia.org/wikipedia/commons/6/61/Dajia-shuo-Putonghua-2817.jpg" alt="pared en hong kong con caracteres chinos y pinyin" width="420"/>
+
 ---
 
 ### chinobasico.ar 
