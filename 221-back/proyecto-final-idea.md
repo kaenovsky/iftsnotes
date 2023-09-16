@@ -51,7 +51,7 @@ Estas páginas van a tener información y al mismo tiempo el usuario va a poder 
 
 **Han**: Explicación didáctica de los caracteres chinos, su historia y evolución. Los caracteres van a ser almacenados en la BD.
 
-**Nihao**: Nihaho significa "Hola", y es donde empieza toda comunicación. Esta página es un formulario de contacto.
+**Nihao**: "nihao" significa "Hola" y es donde empieza toda comunicación. Esta página es un formulario de contacto.
 
 ---
 
