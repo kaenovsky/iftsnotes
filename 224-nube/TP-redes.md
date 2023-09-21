@@ -21,18 +21,19 @@ Los puertos 22, 80 y 443 corresponden a los protocolos SSH, HTTP y HTTPS, respec
 El puerto 3389 corresponde al protocolo RDP (Remote Desktop Protocol), que se utiliza para acceder de forma remota a un servidor Windows.
 
 4. Qué es una IP pública?
+
 Una IP pública es una dirección IP que identifica a un dispositivo en Internet. Las direcciones IP públicas son únicas, y no pueden repetirse en Internet. Se asignan a los dispositivos que se conectan a Internet y funcionan como referencia para conectarnos a distintos dispositivos. Por ejemplo, cuando accedemos a un sitio web, lo hacemos a través de su dirección IP pública.
 
 Las IP estáticas se diferencian de las dinámicas en que las primeras no cambian, mientras que las segundas sí. Las IP estáticas se utilizan para servidores, ya que es necesario que la dirección IP del servidor sea siempre la misma. Las IP dinámicas se utilizan para dispositivos que se conectan a Internet de forma temporal, como por ejemplo los dispositivos móviles o las redes hogareñas.
 
 Azure tiene servicio de IP estática y dinámica:
 
-![](./224-assets/tp1-assets/azure-ip.png)
+![](./tp1-assets/azure-ip.png)
 
 5. Qué tipos de discos rígidos ofrece Azure para VPS?
 
 Azure ofrece discos duros SSD y discos duros HDD. Los discos duros SSD son más rápidos que los discos duros HDD, pero también son más caros. Por lo tanto, los discos duros SSD se utilizan para aplicaciones que requieren un alto rendimiento, como por ejemplo bases de datos, y los discos duros HDD se utilizan para aplicaciones que no requieren un alto rendimiento, como por ejemplo almacenamiento de archivos.
 
-![](./224-assets/tp1-assets/azure-discos.png)
+![](./tp1-assets/azure-discos.png)
 
 TBD: Diagrama de red
