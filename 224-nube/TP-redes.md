@@ -36,4 +36,6 @@ Azure ofrece discos duros SSD y discos duros HDD. Los discos duros SSD son más 
 
 ![](./tp1-assets/azure-discos.png)
 
-TBD: Diagrama de red
+6. Realice un diagrama de red de alto nivel de tipo cliente-servidor, en donde se ponga en evidencia los elementos: usuario, firewall, red interna, ip pública, servidor, puerto SSH (22) y puerto 80(HTTP)
+
+![](./tp1-assets/diagrama.jpg)
