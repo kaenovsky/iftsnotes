@@ -1,0 +1,50 @@
+* {
+    margin: 0 auto;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;   
+}
+
+html {
+    font-size: 16px;
+}
+
+.card {
+    width: 350px;
+    margin: 30px auto;
+    box-shadow: 0 0 3px black;
+    border-radius: 1em;
+}
+
+.card-img {
+    width: 100%;
+    display: block;
+    border-radius: 1em 1em 0 0;
+}
+
+.card-container {
+    text-align: center;
+    padding: 40px 15px;
+    border-radius: 0 0 1em 1em;
+}
+
+.card-title {
+    margin-bottom: 10px;
+}
+
+.card-paragraph {
+    line-height: 1.5;
+    text-align: start;
+}
+
+.card-button {
+    display: inline-block;
+    color: white;
+    background-color: #CC021C;
+    text-decoration: none;
+    padding: 1em 2em;
+    margin-top: 1em;
+    border-radius: 2rem;
+}
