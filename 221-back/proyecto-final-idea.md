@@ -43,6 +43,14 @@ Estas páginas van a tener información y al mismo tiempo el usuario va a poder 
 
 **Wod**: La palabra del día. Una vez por día, a las 00hs, se tomará una palabra de la BD y se mostrará en la url correspondiente junto con su traducción al español y su escritura en pinyin. Al cambiar la palabra al día siguiente, la palabra actual se guardará en la tabla de palabras pasadas.
 
+> Atributos de la clase 'Word':
+> 
+> - en: la palabra en inglés
+> - es: la palabra en español
+> - zw: la palabra en chino
+> - pronun: audio de la pronunciación (en chino). Puede ser null
+> - wod: boolean, al principio es falso. Si alguna vez es word of the day, entonces pasa a true
+
 **LastWords**: Las últimas 10 palabras que pasaron por "la palabra del día". A futuro se podría implementar un sistema de votación.
 
 **Pinyin**: Esta página mostrará la escritura en Pinyin (una simplificación de los caracteres chinos para usar el abecedario latino) mediante un juego donde debemos elegir la opción correcta entre 3 opciones.
