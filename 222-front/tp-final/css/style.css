@@ -1,5 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@500;600;700&display=swap');
 
+/* color variables */
+
 :root {
     --main-dark-grey: hsl(0, 0%, 63%);
     --main-darker-grey: hsl(0, 0%, 27%);
@@ -7,20 +9,187 @@
     --main-white: hsl(0, 0%, 100%);   
 }
 
+/* style for mobile first */
+
 body {
     font-family: 'League Spartan', sans-serif;
     font-size: 12px;
-    max-width: 375px;
+    max-width: 768px;
 }
 
-.grid-container {
-    display: grid;
-    grid-template-columns: 20% 30% 50%;
-    grid-template-rows: 50% 50%;
+/* use display block only for mobile layout */
+
+.container {
+    display: block;
 }
 
-@media (min-width: 375px) {    
+.grid-item {
+    /* red border for debug */
+    /* border: 2px solid red; */
+    min-height: 30vh;
+}
+
+/* item 1 - menu and pic.. */
+
+.item1 {
+    grid-area: main;
+    background-image: url("../img/mobile-image-hero-1.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.item1 .desktop-navbar ul {
+    display: none;
+}
+
+.item1 .mobile-navbar ul {
+    display: flex;
+    margin: 0 auto;
+}
+
+.item1 nav img {
+    margin: 1rem 5rem 0 1rem;
+}
+
+.item2 {
+    grid-area: discover;
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    margin: .5rem .9rem;
+}
+
+/* Dejo esto comentado porque no lo pude terminar a tiempo */
+
+/* .btn-arrows-container {
+    display: flex;
+    flex-flow: row nowrap;
+}
+
+.btn-arrows-container img {
+    width: 15px;
+    height: 30px;
+}
+
+.btn-prev, .btn-next {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--main-black);
+    width: 100px;
+    height: 100px;    
+} */
+
+.item3 {
+    grid-area: chairspic;
+    background-image: url("../img/image-about-dark.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/* item 4 - about our furniture.. */
+
+.item4 {
+    grid-area: about;
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    margin: .5rem .9rem;
+}
+
+.item4 h2 {
+    font-size: 13px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+.item4 p {
+    margin: 0;
+    color: var(--main-dark-grey);
+}
+
+.item5 {
+    grid-area: whitechairpic;
+    background-image: url("../img/image-about-light.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.discover-container p {
+    color: var(--main-dark-grey);
+    margin: 1rem auto;
+}
+
+.discover-container h1 {
+    margin: 0;
+    font-size: 30px;
+}
+
+.btn-shop-container {
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: center;
+}
+
+.btn-shop {
+    text-transform: uppercase;
+    text-decoration: none;
+    color: var(--main-black);
+    letter-spacing: 10px;
+    font-size: 12px;
+    margin-right: 1rem;
+}
+
+@media (min-width: 768px) {    
+    
     body {
-        font-size: smaller;
+        max-width: 1440px;
+    }
+
+    .container {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+        grid-template-rows: 450px 250px;
+        grid-template-areas:
+            "main main main main main main main discover discover discover discover discover"
+            "chairspic chairspic chairspic about about about about about about whitechairpic whitechairpic whitechairpic";
+    }
+
+    .item1 {
+        background-image: url("../img/desktop-image-hero-1.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    .item1 .mobile-navbar {
+        display: none;
+    }
+
+    .item1 .desktop-navbar ul {
+        display: flex;
+        flex-flow: row nowrap;
+        align-items: center;
+    }
+
+    .item1 nav img {
+        margin: 0;
+    }
+
+    nav {
+        width: 10rem;
+    }
+
+    nav ul li {
+        list-style: none;
+        color: var(--main-white);
+        margin: 1rem;
+    }
+
+    .item2 {
+        margin: 0 4rem;
+    }
+
+    .item4 {
+        margin: .5rem 2rem;
     }
 }
