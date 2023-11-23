@@ -140,6 +140,10 @@ body {
     margin-right: 1rem;
 }
 
+
+/* lo hago de 768px al breakpoint para que no se rompa en versiones intermedias
+entre el desktop 1440px y el mobile 375px */
+
 @media (min-width: 768px) {    
     
     body {
