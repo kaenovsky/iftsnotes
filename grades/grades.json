@@ -117,32 +117,32 @@
             "name": "Desarrollo de Sistemas Web (Back End)",
             "year": 2,
             "semester": 2,
-            "status": "Pendiente",
-            "grade": null
+            "status": "Aprobada",
+            "grade": 9
         },
         {
             "code": 222,
             "name": "Desarrollo de Sistemas Web (Front End)",
             "year": 2,
             "semester": 2,
-            "status": "Pendiente",
-            "grade": null
+            "status": "Aprobada",
+            "grade": 8
         },
         {
             "code": 223,
             "name": "Ingenieria de Software",
             "year": 2,
             "semester": 2,
-            "status": "Pendiente",
-            "grade": null
+            "status": "Aprobada",
+            "grade": 10
         },
         {
             "code": 224,
             "name": "Desarrollo e Implementación de Sistemas en la Nube",
             "year": 2,
             "semester": 2,
-            "status": "Pendiente",
-            "grade": null
+            "status": "Aprobada",
+            "grade": 9
         },
         {
             "code": 311,
