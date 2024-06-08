@@ -107,7 +107,7 @@ C' - A' = {a,c,d}
 
 `f(x) = m x + b`
 
-![](ppt-135-mat.png)
+![](./113-assets/ppt-135-mat.png)
 
 - Definición de función
 - Definición de variable dependiente (y) e independiente (x)
@@ -131,11 +131,11 @@ ejemplo con
 
 La ordenada al origen me indica que la función va a cortar al eje Y en -1
 
-![](ppt-136-mat.png)
+![](./113-assets/ppt-136-mat.png)
 
 Con el método de este profe lo piensa así: me muevo 3 lugares hacia arriba y 2 hacia la derecha (porque la fracción es positiva, si fuera negativa, me muevo hacia la izquierda). El numerador me indica siempre ir hacia arriba y el denominador hacia los costados de acuerdo al signo de la pendiente.
 
-![](ppt-137-mat.png)
+![](./113-assets/ppt-137-mat.png)
 
 Explica los conceptos de Dominio, Imagen y Raices que aplica a todas las funciones:
 
@@ -175,11 +175,11 @@ ejemplo:
 ` f(x) = - 2x + 1 `
 ` g(x) = 1/2x - 5 `
 
-![](ppt-141-mat.png)
+![](./113-assets/ppt-141-mat.png)
 
 Ejercicio de práctica: hallar una función lineal a partir de 2 puntos
 
-![](ppt-142-mat.png)
+![](./113-assets/ppt-142-mat.png)
 
 Pasos para encontrar la función:
 
@@ -209,7 +209,7 @@ Se puede expresar de 3 formas:
 
 f(x) = a x² + b x + c 
 
-![](ppt-143-mat.png)
+![](./113-assets/ppt-143-mat.png)
 
 2) Canónica
 
@@ -217,7 +217,7 @@ f(x) = a x² + b x + c
 
 f(x) = a ( x - xv )² + yv 
 
-![](ppt-144-mat.png)
+![](./113-assets/ppt-144-mat.png)
 
 3) Factorizada
 
@@ -225,7 +225,7 @@ f(x) = a ( x - xv )² + yv
 
 f(x) = a (x - x0) . (x - x1)
 
-![](ppt-145-mat.png)
+![](./113-assets/ppt-145-mat.png)
 
 
 
@@ -242,7 +242,7 @@ Consigna: hallar ` r→ + s→ `
 r→ = (3,2)
 s→ = (-2,5)
 
-![](ppt-138-mat.png)
+![](./113-assets/ppt-138-mat.png)
 
 [Resta Vectores en R2 Y Gráfico](https://www.youtube.com/watch?v=vL8GIHsantM)
 
@@ -270,14 +270,14 @@ Restar vectores es igual a sumar el opuesto del segundo
 
 Vector diferencia en rojo:
 
-![](ppt-139-mat.png)
+![](./113-assets/ppt-139-mat.png)
 
 vector rojo:
 ` r→ - s→ `
 
 Ejemplo en video haciendo traslado de vectores, da el mismo resultado:
 
-![](ppt-140-mat.png)
+![](./113-assets/ppt-140-mat.png)
 
 #### Suma de vectores en R3
 Analíticamente se suman sus componentes, en el gráfico se ubican een las rectas los puntos del vector, para obtener la suma hacemos la regla del paralelogramo.
