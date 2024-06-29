@@ -21,8 +21,8 @@
             "name": "Elementos de Analisis Matematico",
             "year": 1,
             "semester": 1,
-            "status": "Pendiente",
-            "grade": null
+            "status": "Aprobada",
+            "grade": 7
         },
         {
             "code": 114,
@@ -173,8 +173,8 @@
             "name": "Trabajo, Tecnología y Sociedad",
             "year": 3,
             "semester": 1,
-            "status": "Pendiente",
-            "grade": null
+            "status": "Aprobada",
+            "grade": 10
         }
         ,
         {
