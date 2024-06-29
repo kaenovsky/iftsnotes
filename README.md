@@ -9,12 +9,13 @@ Voy a ir agregando materias aprobadas a la tabla a continuación y en el archivo
 
 Las materias están referenciadas por el número que está descripto en el [plan de estudios](https://www.ifts18.edu.ar/carreras/desarrollo-de-software/plan-tsds). Por ejemplo: 111 corresponde a la materia Técnicas de Programación (código 1.1.1).
 
-Tabla de materias aprobadas ~ Jul 2023
+Tabla de materias aprobadas ~ Jul 2024
 
 | Materia | cuatrimestre | nota final |
 |-----|---|----| 
 | 111 | 1 | 10 | 
-| 112 | 1 |  9 | 
+| 112 | 1 |  9 |
+| 113 | 1 |  7 | 
 | 114 | 1 |  8 | 
 | 121 | 2 |  9 | 
 | 122 | 2 | 10 | 
@@ -30,3 +31,5 @@ Tabla de materias aprobadas ~ Jul 2023
 | 222 | 4 |  8 | 
 | 223 | 4 | 10 | 
 | 224 | 4 |  9 |
+| 312 | 5 | 10 |
+| 314 | 5 | 10 |
