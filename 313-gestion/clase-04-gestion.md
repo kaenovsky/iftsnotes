@@ -126,5 +126,3 @@ Reglas para la medición de desempeño del costo del proyecto.
 Método más utilizado es el del valor ganado. EVM: Earned Value Method.
 
 Próxima clase tener project libre instalado.
-
-
