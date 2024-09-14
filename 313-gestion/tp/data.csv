@@ -1,0 +1,21 @@
+ID,Task Name,Duration,Predecessors,Resources
+T1.1,Reunión de planificación,1,,PM, PO
+T1.2,Relevamiento inicial,1,T1.1,PM, PO
+T1.3,Desarrollo de plan de proyecto,1,T1.2,PM
+T2.1,Definición de arquitectura,2,T1.2,PM, BE
+T2.2,Relevamiento detallado por módulo,2,T2.1,PM, BE
+T2.3,Diseño de la base de datos,1,T2.2,BE
+T3.1.1,Desarrollo del catálogo de productos,4,T2.3,BE
+T3.1.2,Búsqueda y filtrado de productos,2,T3.1.1,FE
+T3.2.1,Registro y autenticación,4,T3.1.2,BE
+T3.2.2,Perfil de usuario y gestión de datos,3,T3.2.1,FE
+T3.3.1,Implementación del carrito,3,T3.2.1,FE
+T3.3.2,Gestion y actualización del carrito,2,T3.3.1,FE
+T3.4.1,Integración con pasarelas de pago,4,T3.3.2,BE
+T3.4.2,Proceso de checkout y confirmación de pedidos,2,T3.4.1,FE
+T4.1,Pruebas unitarias por módulo,6,T3.4.2,QA
+T4.2,Pruebas de integración,3,T4.1,QA
+T4.3,Pruebas de usuario y usabilidad,2,T4.2,QA, PO
+T5.1,Desarrollo y ejecución del plan de despliegue,4,T4.3,BE
+T5.2,Capacitación del usuario final,1,T5.1,PM, FE
+T6.1,Entrega de ejecutable y acceso,1,T5.2,PM

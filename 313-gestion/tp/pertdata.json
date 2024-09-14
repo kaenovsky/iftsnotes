@@ -1,83 +1,170 @@
 {
-    "T1.1": {
-      "Tid": "T1.1",
-      "start": 0,
-      "duration": 1,
-      "end": 0,
-      "responsible": "PM, PO",
-      "pred": ["START"]
-    },
-    "T1.2": {
-      "Tid": "T1.2",
-      "start": 0,
-      "duration": 3,
-      "end": 0,
-      "responsible": "PM, BA",
-      "pred": ["T1.1"]
-    },
-    "T1.3": {
-      "Tid": "T1.3",
-      "start": 0,
-      "duration": 2,
-      "end": 0,
-      "responsible": "PM",
-      "pred": ["T1.2"]
-    },
-    "T2.1": {
-      "Tid": "T2.1",
-      "start": 0,
-      "duration": 7,
-      "end": 0,
-      "responsible": "UX/UI",
-      "pred": ["T1.3"]
-    },
-    "T2.2": {
-      "Tid": "T2.2",
-      "start": 0,
-      "duration": 5,
-      "end": 0,
-      "responsible": "Arquitecto SW",
-      "pred": ["T2.1"]
-    },
-    "T2.3": {
-      "Tid": "T2.3",
-      "start": 0,
-      "duration": 3,
-      "end": 0,
-      "responsible": "Arquitecto SW",
-      "pred": ["T2.2"]
-    },
-    "T3.1": {
-      "Tid": "T3.1",
-      "start": 0,
-      "duration": 10,
-      "end": 0,
-      "responsible": "Dev Frontend",
-      "pred": ["T2.1"]
-    },
-    "T3.2": {
-      "Tid": "T3.2",
-      "start": 0,
-      "duration": 10,
-      "end": 0,
-      "responsible": "Dev Backend",
-      "pred": ["T2.2"]
-    },
-    "T3.3": {
-      "Tid": "T3.3",
-      "start": 0,
-      "duration": 5,
-      "end": 0,
-      "responsible": "Dev Backend",
-      "pred": ["T3.2"]
-    },
-    "END": {
-      "Tid": "END",
-      "start": 0,
-      "duration": 0,
-      "end": 0,
-      "responsible": "Soporte",
-      "pred": ["T3.3"]
-    }
+  "T1.1": {
+    "Tid": "T1.1",
+    "start": 0,
+    "duration": 1,
+    "end": 0,
+    "responsible": "PM, PO",
+    "pred": ["START"]
+  },
+  "T1.2": {
+    "Tid": "T1.2",
+    "start": 0,
+    "duration": 1,
+    "end": 0,
+    "responsible": "PM, PO",
+    "pred": ["T1.1"]
+  },
+  "T1.3": {
+    "Tid": "T1.3",
+    "start": 0,
+    "duration": 1,
+    "end": 0,
+    "responsible": "PM",
+    "pred": ["T1.2"]
+  },
+  "T2.1": {
+    "Tid": "T2.1",
+    "start": 0,
+    "duration": 2,
+    "end": 0,
+    "responsible": "PM, BE",
+    "pred": ["T1.2"]
+  },
+  "T2.2": {
+    "Tid": "T2.2",
+    "start": 0,
+    "duration": 2,
+    "end": 0,
+    "responsible": "PM, BE",
+    "pred": ["T2.1"]
+  },
+  "T2.3": {
+    "Tid": "T2.3",
+    "start": 0,
+    "duration": 1,
+    "end": 0,
+    "responsible": "BE",
+    "pred": ["T2.2"]
+  },
+  "T3.1.1": {
+    "Tid": "T3.1.1",
+    "start": 0,
+    "duration": 4,
+    "end": 0,
+    "responsible": "BE",
+    "pred": ["T2.3"]
+  },
+  "T3.1.2": {
+    "Tid": "T3.1.2",
+    "start": 0,
+    "duration": 2,
+    "end": 0,
+    "responsible": "FE",
+    "pred": ["T3.1.1"]
+  },
+  "T3.2.1": {
+    "Tid": "T3.2.1",
+    "start": 0,
+    "duration": 4,
+    "end": 0,
+    "responsible": "BE",
+    "pred": ["T3.1.2"]
+  },
+  "T3.2.2": {
+    "Tid": "T3.2.2",
+    "start": 0,
+    "duration": 3,
+    "end": 0,
+    "responsible": "FE",
+    "pred": ["T3.2.1"]
+  },
+  "T3.3.1": {
+    "Tid": "T3.3.1",
+    "start": 0,
+    "duration": 3,
+    "end": 0,
+    "responsible": "FE",
+    "pred": ["T3.2.1"]
+  },
+  "T3.3.2": {
+    "Tid": "T3.3.2",
+    "start": 0,
+    "duration": 2,
+    "end": 0,
+    "responsible": "FE",
+    "pred": ["T3.3.1"]
+  },
+  "T3.4.1": {
+    "Tid": "T3.4.1",
+    "start": 0,
+    "duration": 4,
+    "end": 0,
+    "responsible": "BE",
+    "pred": ["T3.3.2"]
+  },
+  "T3.4.2": {
+    "Tid": "T3.4.2",
+    "start": 0,
+    "duration": 2,
+    "end": 0,
+    "responsible": "FE",
+    "pred": ["T3.4.1"]
+  },
+  "T4.1": {
+    "Tid": "T4.1",
+    "start": 0,
+    "duration": 6,
+    "end": 0,
+    "responsible": "QA",
+    "pred": ["T3.4.2"]
+  },
+  "T4.2": {
+    "Tid": "T4.2",
+    "start": 0,
+    "duration": 3,
+    "end": 0,
+    "responsible": "QA",
+    "pred": ["T4.1"]
+  },
+  "T4.3": {
+    "Tid": "T4.3",
+    "start": 0,
+    "duration": 2,
+    "end": 0,
+    "responsible": "QA, PO",
+    "pred": ["T4.2"]
+  },
+  "T5.1": {
+    "Tid": "T5.1",
+    "start": 0,
+    "duration": 4,
+    "end": 0,
+    "responsible": "BE",
+    "pred": ["T4.3"]
+  },
+  "T5.2": {
+    "Tid": "T5.2",
+    "start": 0,
+    "duration": 1,
+    "end": 0,
+    "responsible": "PM, FE",
+    "pred": ["T5.1"]
+  },
+  "T6.1": {
+    "Tid": "T6.1",
+    "start": 0,
+    "duration": 1,
+    "end": 0,
+    "responsible": "PM",
+    "pred": ["T5.2"]
+  },
+  "END": {
+    "Tid": "END",
+    "start": 0,
+    "duration": 0,
+    "end": 0,
+    "responsible": "N/A",
+    "pred": ["T6.1"]
   }
-  
+}
