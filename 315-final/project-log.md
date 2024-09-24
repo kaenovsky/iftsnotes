@@ -55,3 +55,11 @@ Próximos pasos:
 
 - Implementar Photon Fusion para agregar funcionalidad multijugador.
 - Integrar chat de voz usando Building Blocks.
+
+[23-09-24]
+
+Hablé con el profe el tema de conectividad, me dio el ok para hacer algo simple si no llego a tener el automatchmaking funcionando en un par de semanas. Por ejemplo planteé hacer una web con un ABM y una BD, que te descargues la versión actual de la app y eso cerraría el TP. De todas formas sigo avanzando para tratar de implementar la feature de multiplayer. Ahora tuve que crear una nueva organización en Meta y verificar mi perfil:
+
+![](./315-assets/screen-meta-012.png)
+
+Esto demora unos días supuestamente. Si tenga la aprobación, puedo utilizar las features de conectividad de Building Blocks.
