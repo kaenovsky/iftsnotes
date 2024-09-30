@@ -63,3 +63,15 @@ Hablé con el profe el tema de conectividad, me dio el ok para hacer algo simple
 ![](./315-assets/screen-meta-012.png)
 
 Esto demora unos días supuestamente. Si tenga la aprobación, puedo utilizar las features de conectividad de Building Blocks.
+
+[29-09-24]
+
+Por ahora no tengo la aprobación de Meta como developer (tuve que subir documentación oficial, el tema es que mi usuario de Meta no tenía mi nombre real sino un alias, no estoy seguro si me lo van a aprobar). Por lo que tuve que cambiar un poco la idea, ya que para usar los building blocks que tenía planeado necesito esa autorización. Lo nuevo que planteé es hacer la misma app pero individual y en el espacio, es decir, vemos la tierra y la luna mientras jugamos al beer pong.
+
+![](./315-assets/screen-meta-013.png)
+
+Además de esto, que quedó bastante avanzado y funcional, armé un mini sitio tipo SPA que muestra info del juego. Está hecho en Nextjs, integrado con supabase para la base de datos y el login. Quedó deployado en Vercel: https://xr-rancho.vercel.app/
+
+También está comentado el alcance en el readme del repositorio: https://github.com/kaenovsky/xr-rancho
+
+La idea este promo site es cumplir los requisitos del TP integrador, que incluye hacer una ABM, integrar una BD e implementar una autenticación.
