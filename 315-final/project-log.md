@@ -75,3 +75,15 @@ Además de esto, que quedó bastante avanzado y funcional, armé un mini sitio t
 También está comentado el alcance en el readme del repositorio: https://github.com/kaenovsky/xr-rancho
 
 La idea este promo site es cumplir los requisitos del TP integrador, que incluye hacer una ABM, integrar una BD e implementar una autenticación.
+
+[07-10-24]
+
+Presentación final de proyecto. Adjunto presentación en este repo. Los tópicos de la presentación son:
+
+- Introducción al proyecto
+- Proceso de desarrollo con Unity
+- Scripts custom con c#
+- Distribución de la app
+- Sitio promocional (con requisitos del TP)
+- Próximos pasos después de publicación
+- Conclusión, hilar con otras materias
