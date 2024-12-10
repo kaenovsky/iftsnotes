@@ -149,8 +149,8 @@
             "name": "Programación sobre Redes",
             "year": 3,
             "semester": 1,
-            "status": "Pendiente",
-            "grade": null
+            "status": "Aprobada",
+            "grade": 9
         },
         {
             "code": 312,
@@ -165,8 +165,8 @@
             "name": "Gestión de Proyectos",
             "year": 3,
             "semester": 1,
-            "status": "Pendiente",
-            "grade": null
+            "status": "Aprobada",
+            "grade": 9
         },
         {
             "code": 314,
