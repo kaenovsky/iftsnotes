@@ -3,13 +3,11 @@ Apuntes de la carrera [Tec. en Desarrollo de Software (IFTS18)](https://www.ifts
 
 ![notas en obsidian](./snapshot.png)
 
-## Materias aprobadas
-
-Voy a ir agregando materias aprobadas a la tabla a continuación y en el archivo `./grades/grades.json` ~~con la idea de implementar un widget en algún momento~~ (update: por ahora dejo subida una primera versión [acá](https://iftsnotes.vercel.app/) mostrando el avance de la carrera).
+## Materias
 
 Las materias están referenciadas por el número que está descripto en el [plan de estudios](https://www.ifts18.edu.ar/carreras/desarrollo-de-software/plan-tsds). Por ejemplo: 111 corresponde a la materia Técnicas de Programación (código 1.1.1).
 
-Tabla de materias aprobadas ~ Jul 2024
+Tabla de materias
 
 | Materia | cuatrimestre | nota final |
 |-----|---|----| 
@@ -35,3 +33,5 @@ Tabla de materias aprobadas ~ Jul 2024
 | 312 | 5 | 10 |
 | 313 | 5 |  9 |
 | 314 | 5 | 10 |
+
+Update Diciembre 2024: ciclo finalizado 🎉
